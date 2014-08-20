@@ -47,10 +47,6 @@ The format of `details.txt` is a tab-delimited UTF-8 text file.  The tabs are, i
 
 The examples can get quite long, so you probably wouldn't want to look at the file itself very much, but if you're running into unexpected behavior, it's work a look.  The left-most part of each line should be quite legible.
 
-History
-=======
-
-
 Issues
 ======
 
