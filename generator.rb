@@ -351,7 +351,7 @@ class Detailsmaker
 	end
 
 	# Makes the meanings string.
-	def make_extra_meanings meanings
+	def make_meanings meanings
 		if meanings.size == 0
 			return ''
 		end
