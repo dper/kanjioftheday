@@ -83,7 +83,7 @@ end
 # Word frequency list.  Words that are too short or too long are excluded.
 class Wordfreq
 	# The maximum kanji count for a sample word.
-	Max_example_word_width = 3
+	Max_example_word_width = 8 
 
 	# Creates a Wordfreq.
 	def initialize
@@ -205,8 +205,8 @@ class Kanji
 	attr_accessor :onyomis	    # Zero or more onyomi readings.
 	attr_accessor :examples     # Example list.
 
-	Max_example_count = 3 # The maximum number of examples to store.
-	Max_example_size = 50 # Max example width.
+	Max_example_count = 10 # The maximum number of examples to store.
+	Max_example_size = 75 # Max example width.
 
 	# Look up examples of word use and record them.
 	def lookup_examples
