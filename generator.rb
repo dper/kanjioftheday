@@ -323,8 +323,8 @@ class Targetkanji
 	end
 end
 
-# Makes the Anki deck for a given list of Kanji.
-class Cardmaker
+# Makes the details file for a given list of Kanji.
+class Detailsmaker
 	# Makes the literal string.
 	def make_literal literal
 		s = literal
@@ -350,13 +350,7 @@ class Cardmaker
 		return s
 	end
 
-	# Makes the base meaning string.
-	def make_base_meaning meaning
-		s = meaning.upcase
-		return s
-	end
-
-	# Makes the extra meaning string.
+	# Makes the meanings string.
 	def make_extra_meanings meanings
 		if meanings.size == 0
 			return ''
@@ -435,9 +429,7 @@ class Cardmaker
 		card += splitter
 		card += make_grade kanji.grade
 		card += splitter
-		card += make_base_meaning kanji.meanings[0]
-		card += splitter
-		card += make_extra_meanings kanji.meanings.rest
+		card += make_meanings kanji.meanings
 		card += splitter
 		card += make_onyomis kanji.onyomis
 		card += splitter
@@ -450,37 +442,37 @@ class Cardmaker
 		return card
 	end
 
-	# Makes the Anki deck and stores it as @deck.
-	def make_deck kanjilist
-		deck = ""
+	# Makes the details string stores it as @details.
+	def make_details kanjilist
+		details = ""
 
 		kanjilist.each do |kanji|
-			deck += make_card kanji
+			details += make_card kanji
 		end
 
-		@deck = deck
+		@details = details
 	end
 
 	def initialize kanjilist
-		puts 'Making the deck ...'
-		make_deck kanjilist
+		puts 'Making the details ...'
+		make_details kanjilist
 	end
 
-	# Writes the contents of @deck to a text file.
-	def write_deck
-		file = 'anki.txt'
+	# Writes the contents of @details to a text file.
+	def write_details
+		file = 'details.txt'
 		path = Script_dir + '/' + file
-		puts 'Writing the deck to ' + file + '...'
+		puts 'Writing the details to ' + file + '...'
 
 		open(path, 'w') do |f|
-			f.puts @deck
+			f.puts @details
 		end		
 
 		puts 'Done writing.'
 	end
 end
 
-def make_deck
+def make_details
 	# Read all of the files and data.
 	$edict = Edict.new
 	$wordfreq = Wordfreq.new
@@ -488,9 +480,9 @@ def make_deck
 	$kanjidic = Kanjidic.new
 	$targetkanji = Targetkanji.new
 
-	# Make the deck.
-	$cardmaker = Cardmaker.new($targetkanji.kanjilist)
-	$cardmaker.write_deck
+	# Make the details.
+	$detailsmaker = Detailsmaker.new($targetkanji.kanjilist)
+	$detailsmaker.write_details
 end
 
-make_deck
+make_details
