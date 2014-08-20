@@ -27,6 +27,26 @@ Or do this from the command line.
     unzip 2014-01-24.kanjidic2.zip
     unzip 2014-01-24.edict.zip
 
+Details
+=======
+
+There are two main steps.
+
+1. Take a list of target kanji and make a details file.  This is done by placing the target kanji all on one line with no spaces in a file called `targetkanji.txt` and then running the `generator.rb` script.
+2. Use the output of that file, which is temporarily called `details.txt` until you rename it by choosing one line at random and based on that line producing a kanji of the day code block.
+
+The format of `details.txt` is a tab-delimited UTF-8 text file.  The tabs are, in order, as follows.
+
+* Literal
+* Strokes
+* Grade
+* Meanings
+* Onyomis
+* Kunyomis
+* Examples
+
+The examples can get quite long, so you probably wouldn't want to look at the file itself very much, but if you're running into unexpected behavior, it's work a look.  The left-most part of each line should be quite legible.
+
 History
 =======
 
