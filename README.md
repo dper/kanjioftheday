@@ -50,4 +50,36 @@ The examples can get quite long, so you probably wouldn't want to look at the fi
 History
 =======
 
-Most of this code is pulled from kanjiforanki (<https://github.com/dper/kanjiforanki>).  That code was designed for flash cards, which are by nature small.  The HTML here is designed for regular web use and is not as constrained in size.
+
+Issues
+======
+
+If you see any issues, obvious but missing features, or problems with the documentation, feel free to open an issue at <https://github.com/dper/KanjiForAnki/issues> or contact the author at <https://microca.st/dper>.
+
+Sources
+=======
+
+Most of this code is pulled from kanjiforanki (<https://github.com/dper/kanjiforanki>).  That code was designed for flash cards, which are by nature small.  The HTML here is designed for regular web use and is not as constrained in size.  That project was based on a project I did in 2011 to make paper flash cards for elementary school kanji.  <https://dperkins.org/arc/2011-03-22.kanji%20flashcards.html>
+
+The kanji lists themselves are published by the Ministry of Education (MEXT) in Japan.  Other websites copy and paste the data from official MEXT documents.
+
+* <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/syo/koku/001.htm>.  Elementary school kanji.
+* <http://www.imabi.net/joyokanjilist.htm>.  Elementary and junior high school kanji.
+
+The word frequency list is public domain and is included with the source.
+
+* <http://ftp.monash.edu.au/pub/nihongo/00INDEX.html>.
+* <http://www.bcit-broadcast.com/monash/wordfreq.README>.
+* <http://ftp.monash.edu.au/pub/nihongo/wordfreq_ck.gz>.  Retrieved 2014-01-24.
+
+The kanji dictionary and Japanese word dictionary are available from their original sources.  The original sources aren't in Unicode, but you can and should check there for updates and make the conversions yourself using a web browser and some copy and pasting.
+
+* <http://www.csse.monash.edu.au/~jwb/kanjidic2/>.
+* <http://www.csse.monash.edu.au/~jwb/kanjidic2/kanjidic2.xml.gz>.
+* <http://www.csse.monash.edu.au/~jwb/edict.html>.
+* <http://ftp.monash.edu.au/pub/nihongo/edict.gz>.
+
+Contributions
+=============
+
+Thanks to **jfsantos** for the regular expressions that remove hiragana and katakana.
