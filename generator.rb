@@ -407,11 +407,11 @@ class Detailsmaker
 			kana = example.kana
 			meaning = example.meaning
 
-			s += word + ' (' + kana + ') - ' + meaning
-			s += '<br>'
+			s += word + ' &nbsp; (' + kana + ') &nbsp; &mdash; &nbsp; ' + meaning
+			s += '<br />'
 		end
 
-		s.chomp! '<br>'
+		s.chomp! '<br />'
 		return s
 	end
 

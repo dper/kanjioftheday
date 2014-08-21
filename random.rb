@@ -103,8 +103,8 @@ class Styler
 		text += "<p style=\"color: #ff66ff;\">" + get_strokes + "</p>\n"
 		text += "<p style=\"color: gray;\">" + get_grade + "</p>\n"
 		text += "<p style=\"color: green;\">" + get_meanings + "</p>\n"
-		text += "<p style=\"orange;\">" + get_onyomis + "</p>\n"
-		text += "<p style=\"red;\">" + get_kunyomis + "</p>\n"
+		text += "<p style=\"color: orange;\">" + get_onyomis + "</p>\n"
+		text += "<p style=\"color: red;\">" + get_kunyomis + "</p>\n"
 		text += "<p>" + get_examples + "</p>\n"
 
 		text += "</div>\n"
