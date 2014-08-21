@@ -2,24 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Kanji of the Day</title>
 <link rel="related" href="https://github.com/dper/kanjioftheday/" />
-<updated>2014-15-21T14:15:49Z</updated>
+<link rel="self" href="https://dperkins.org/kanjioftheday//elementary.xml" />
+<updated>2014-22-21T14:22:07Z</updated>
 <author>
 <name>Douglas Paul Perkins</name>
 </author>
 <id>https://dperkins.org/kanjioftheday//elementary.xml</id>
 
 <entry>
-<title>Kanji of the Day: 訓</title>
-<id>https://dperkins.org/kanjioftheday//elementary.xml#2014-15-21T14:15:49Z</id>
-<updated>2014-15-21T14:15:49Z</updated>
+<title>Kanji of the Day: 評</title>
+<id>https://dperkins.org/kanjioftheday//elementary.xml#2014-22-21T14:22:07Z</id>
+<updated>2014-22-21T14:22:07Z</updated>
 <div style="text-align: center; border: 1px solid black;">
-<p style="font-size: 300%; font-weight: bold; color: blue;">訓</p>
-<p style="color: #ff66ff;">✍10</p>
-<p style="color: gray;">小4</p>
-<p style="color: green;">instruction, Japanese character reading, explanation, read</p>
-<p style="color: orange;">クン　キン</p>
-<p style="color: red;">おし.える　よ.む　くん.ずる</p>
-<p>訓練 &nbsp; (くんれん) &nbsp; &mdash; &nbsp; practice<br />教訓 &nbsp; (きょうくん) &nbsp; &mdash; &nbsp; lesson<br />訓示 &nbsp; (くんじ) &nbsp; &mdash; &nbsp; instruction<br />特訓 &nbsp; (とっくん) &nbsp; &mdash; &nbsp; special training<br />訓告 &nbsp; (くんこく) &nbsp; &mdash; &nbsp; reprimand<br />訓令 &nbsp; (くんれい) &nbsp; &mdash; &nbsp; directive<br />校訓 &nbsp; (こうくん) &nbsp; &mdash; &nbsp; school precepts<br />遺訓 &nbsp; (いくん) &nbsp; &mdash; &nbsp; dying instructions<br />訓戒 &nbsp; (くんかい) &nbsp; &mdash; &nbsp; warning<br />音訓 &nbsp; (おんくん) &nbsp; &mdash; &nbsp; kanji readings<br />家訓 &nbsp; (かきん) &nbsp; &mdash; &nbsp; family precepts<br />社訓 &nbsp; (しゃくん) &nbsp; &mdash; &nbsp; guiding precepts of a company<br />訓読み &nbsp; (くんよみ) &nbsp; &mdash; &nbsp; kun-yomi (Japanese reading of character)<br />自律訓練法 &nbsp; (じりつくんれんほう) &nbsp; &mdash; &nbsp; autogenic training<br />字訓 &nbsp; (じくん) &nbsp; &mdash; &nbsp; the Japanese reading of a kanji<br />訓導 &nbsp; (くんどう) &nbsp; &mdash; &nbsp; old word for licensed elementary school teacher<br />垂訓 &nbsp; (すいくん) &nbsp; &mdash; &nbsp; instruction<br />難訓 &nbsp; (なんくん) &nbsp; &mdash; &nbsp; difficult reading of a kanji<br />熟字訓 &nbsp; (じゅくじくん) &nbsp; &mdash; &nbsp; special kanji readings<br />古訓 &nbsp; (こくん) &nbsp; &mdash; &nbsp; ancient instruction
+<p style="font-size: 300%; font-weight: bold; color: blue;">評</p>
+<p style="color: #ff66ff;">✍12</p>
+<p style="color: gray;">小5</p>
+<p style="color: green;">evaluate, criticism, comment</p>
+<p style="color: orange;">ヒョウ</p>
+<p style="color: red;"></p>
+<p>評価 &#160; (ひょうか) &#160; &mdash; &#160; valuation<br />評議 &#160; (ひょうぎ) &#160; &mdash; &#160; conference<br />評論家 &#160; (ひょうろんか) &#160; &mdash; &#160; critic<br />評判 &#160; (ひょうばん) &#160; &mdash; &#160; fame<br />好評 &#160; (こうひょう) &#160; &mdash; &#160; popularity<br />評論 &#160; (ひょうろん) &#160; &mdash; &#160; criticism<br />批評 &#160; (ひひょう) &#160; &mdash; &#160; criticism<br />書評 &#160; (しょひょう) &#160; &mdash; &#160; book review<br />総評 &#160; (そうひょう) &#160; &mdash; &#160; general comment<br />定評 &#160; (ていひょう) &#160; &mdash; &#160; established opinion<br />論評 &#160; (ろんぴょう) &#160; &mdash; &#160; comment<br />評議員 &#160; (ひょうぎいん) &#160; &mdash; &#160; trustee<br />評決 &#160; (ひょうけつ) &#160; &mdash; &#160; decision<br />評伝 &#160; (ひょうでん) &#160; &mdash; &#160; a critical biography<br />不評 &#160; (ふひょう) &#160; &mdash; &#160; bad reputation<br />酷評 &#160; (こくひょう) &#160; &mdash; &#160; severe criticism<br />評定 &#160; (ひょうじょう) &#160; &mdash; &#160; council<br />過小評価 &#160; (かしょうひょうか) &#160; &mdash; &#160; underestimation<br />悪評 &#160; (あくひょう) &#160; &mdash; &#160; bad reputation<br />時評 &#160; (じひょう) &#160; &mdash; &#160; commentary on current events
 </p>
 <p style="font-size: smaller; color: gray;">This page was generated using <a href="https://github.com/dper/kanjioftheday/">kanjioftheday</a>, written by Douglas Paul Perkins.  Kanji lists came from the Ministry of Education.  Example words are derived from a <a href="http://www.bcit-broadcast.com/monash/wordfreq.README">word frequency list</a> by Alexandre Girardi.  Dictionary information is taken from <a href="http://www.csse.monash.edu.au/~jwb/kanjidic2/">KANJIDIC2</a> and <a href="http://www.edrdg.org/jmdict/edict.html">EDICT</a>.</p>
 </div>

@@ -2,24 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Kanji of the Day</title>
 <link rel="related" href="https://github.com/dper/kanjioftheday/" />
-<updated>2014-15-21T14:15:49Z</updated>
+<link rel="self" href="https://dperkins.org/kanjioftheday//elementary.6.xml" />
+<updated>2014-22-21T14:22:07Z</updated>
 <author>
 <name>Douglas Paul Perkins</name>
 </author>
 <id>https://dperkins.org/kanjioftheday//elementary.6.xml</id>
 
 <entry>
-<title>Kanji of the Day: 鋼</title>
-<id>https://dperkins.org/kanjioftheday//elementary.6.xml#2014-15-21T14:15:49Z</id>
-<updated>2014-15-21T14:15:49Z</updated>
+<title>Kanji of the Day: 密</title>
+<id>https://dperkins.org/kanjioftheday//elementary.6.xml#2014-22-21T14:22:07Z</id>
+<updated>2014-22-21T14:22:07Z</updated>
 <div style="text-align: center; border: 1px solid black;">
-<p style="font-size: 300%; font-weight: bold; color: blue;">鋼</p>
-<p style="color: #ff66ff;">✍16</p>
+<p style="font-size: 300%; font-weight: bold; color: blue;">密</p>
+<p style="color: #ff66ff;">✍11</p>
 <p style="color: gray;">小6</p>
-<p style="color: green;">steel</p>
-<p style="color: orange;">コウ</p>
-<p style="color: red;">はがね</p>
-<p>鉄鋼 &nbsp; (てっこう) &nbsp; &mdash; &nbsp; iron and steel<br />製鋼 &nbsp; (せいこう) &nbsp; &mdash; &nbsp; steel manufacture<br />鋼材 &nbsp; (こうざい) &nbsp; &mdash; &nbsp; steel material<br />鋼板 &nbsp; (こうはん) &nbsp; &mdash; &nbsp; steel sheet<br />粗鋼 &nbsp; (そこう) &nbsp; &mdash; &nbsp; crude steel<br />鋼管 &nbsp; (こうかん) &nbsp; &mdash; &nbsp; steel pipe<br />鋼鉄 &nbsp; (こうてつ) &nbsp; &mdash; &nbsp; steel<br />特殊鋼 &nbsp; (とくしゅこう) &nbsp; &mdash; &nbsp; special steel<br />鋼製 &nbsp; (こうせい) &nbsp; &mdash; &nbsp; made of steel
+<p style="color: green;">secrecy, density (pop), minuteness, carefulness</p>
+<p style="color: orange;">ミツ</p>
+<p style="color: red;">ひそ.か</p>
+<p>秘密 &#160; (ひみつ) &#160; &mdash; &#160; secret<br />緊密 &#160; (きんみつ) &#160; &mdash; &#160; rigour<br />密接 &#160; (みっせつ) &#160; &mdash; &#160; related<br />密輸 &#160; (みつゆ) &#160; &mdash; &#160; smuggling<br />密着 &#160; (みっちゃく) &#160; &mdash; &#160; glued to<br />精密 &#160; (せいみつ) &#160; &mdash; &#160; precise<br />機密 &#160; (きみつ) &#160; &mdash; &#160; secrecy<br />密度 &#160; (みつど) &#160; &mdash; &#160; density<br />密集 &#160; (みっしゅう) &#160; &mdash; &#160; crowd<br />厳密 &#160; (げんみつ) &#160; &mdash; &#160; strict<br />密売 &#160; (みつばい) &#160; &mdash; &#160; smuggling<br />親密 &#160; (しんみつ) &#160; &mdash; &#160; intimacy<br />過密 &#160; (かみつ) &#160; &mdash; &#160; overcrowding<br />綿密 &#160; (めんみつ) &#160; &mdash; &#160; minute<br />密航 &#160; (みっこう) &#160; &mdash; &#160; smuggling<br />密猟 &#160; (みつりょう) &#160; &mdash; &#160; poaching<br />密入国 &#160; (みつにゅうこく) &#160; &mdash; &#160; smuggling oneself into a country<br />密約 &#160; (みつやく) &#160; &mdash; &#160; secret agreement<br />密閉 &#160; (みっぺい) &#160; &mdash; &#160; airtight<br />密輸入 &#160; (みつゆにゅう) &#160; &mdash; &#160; smuggling in
 </p>
 <p style="font-size: smaller; color: gray;">This page was generated using <a href="https://github.com/dper/kanjioftheday/">kanjioftheday</a>, written by Douglas Paul Perkins.  Kanji lists came from the Ministry of Education.  Example words are derived from a <a href="http://www.bcit-broadcast.com/monash/wordfreq.README">word frequency list</a> by Alexandre Girardi.  Dictionary information is taken from <a href="http://www.csse.monash.edu.au/~jwb/kanjidic2/">KANJIDIC2</a> and <a href="http://www.edrdg.org/jmdict/edict.html">EDICT</a>.</p>
 </div>

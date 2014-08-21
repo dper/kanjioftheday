@@ -147,7 +147,6 @@ class Styler
 		atom += "</entry>\n"
 		atom += "</feed>\n"
 		@atom = atom
-		puts atom
 	end
 
 	def write_atom

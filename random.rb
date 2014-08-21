@@ -54,7 +54,9 @@ class Styler
 	# Styles the given line.
 	def initialize (line, output)
 		@line = line
+		@output = output
 		style_core
+		style_atom
 	end
 
 	# Returns the literal.
@@ -92,6 +94,12 @@ class Styler
 		return @line.split("\t")[6]
 	end
 
+	# Returns an attribution string.
+	def get_attribution
+		attribution = "This page was generated using <a href=\"https://github.com/dper/kanjioftheday/\">kanjioftheday</a>, written by Douglas Paul Perkins.  Kanji lists came from the Ministry of Education.  Example words are derived from a <a href=\"http://www.bcit-broadcast.com/monash/wordfreq.README\">word frequency list</a> by Alexandre Girardi.  Dictionary information is taken from <a href=\"http://www.csse.monash.edu.au/~jwb/kanjidic2/\">KANJIDIC2</a> and <a href=\"http://www.edrdg.org/jmdict/edict.html\">EDICT</a>."
+		return attribution
+	end
+
 	# Returns the current date and time as a string.
 	def time
 		return Time.now.utc.strftime("%Y-%M-%dT%H:%M:%SZ")
@@ -107,6 +115,7 @@ class Styler
 		core += "<p style=\"color: orange;\">" + get_onyomis + "</p>\n"
 		core += "<p style=\"color: red;\">" + get_kunyomis + "</p>\n"
 		core += "<p>" + get_examples + "</p>\n"
+		core += "<p style=\"font-size: smaller; color: gray;\">" + get_attribution + "</p>\n"
 		core += "</div>\n"
 		@core = core	
 	end
@@ -114,13 +123,14 @@ class Styler
 	def style_atom
 		updated = time
 		atom_id = URL + '/' + @output
-		link = "https://github.com/dper/kanjioftheday/"
+		project = "https://github.com/dper/kanjioftheday/"
 		entry_id = atom_id + "#" + updated	
 
 		atom = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n"
 		atom += "<feed xmlns=\"http://www.w3.org/2005/Atom\">\n"
 		atom += "<title>Kanji of the Day</title>\n"
-		atom += "<link rel=\"related\" href=\"" + link + "\" />\n"
+		atom += "<link rel=\"related\" href=\"" + project + "\" />\n"
+		atom += "<link rel=\"self\" href=\"" + atom_id + "\" />\n"
 		atom += "<updated>" + updated + "</updated>\n"
 		atom += "<author>\n"
 		atom += "<name>" + Author + "</name>\n"
@@ -139,9 +149,11 @@ class Styler
 		@atom = atom
 	end
 
-	def write_atom output
-		puts output
-		#TODO
+	def write_atom
+		puts 'Writing to ' + @output + ' ...'
+		open(@output, 'w') do |file|
+			file.puts @atom
+		end
 	end
 end
 
@@ -149,19 +161,19 @@ end
 def write_random (input, output)
 	$details = Details.new input
 	$styler = Styler.new($details.line, output)
-	$styler.write_atom output
+	$styler.write_atom
 end
 
 # Writes the random kanji Atom feeds for a bunch of files.
 def write_many_random
-	write_random("elementary.1.txt", "elementary.1.atom")
-	write_random("elementary.2.txt", "elementary.2.atom")
-	write_random("elementary.3.txt", "elementary.3.atom")
-	write_random("elementary.4.txt", "elementary.4.atom")
-	write_random("elementary.5.txt", "elementary.5.atom")
-	write_random("elementary.6.txt", "elementary.6.atom")
-	write_random("elementary.txt", "elementary.atom")
-	write_random("jhs.txt", "jhs.atom")
+	write_random("elementary.1.txt", "elementary.1.xml")
+	write_random("elementary.2.txt", "elementary.2.xml")
+	write_random("elementary.3.txt", "elementary.3.xml")
+	write_random("elementary.4.txt", "elementary.4.xml")
+	write_random("elementary.5.txt", "elementary.5.xml")
+	write_random("elementary.6.txt", "elementary.6.xml")
+	write_random("elementary.txt", "elementary.xml")
+	write_random("jhs.txt", "jhs.xml")
 end
 
 write_many_random

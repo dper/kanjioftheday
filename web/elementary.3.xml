@@ -2,24 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Kanji of the Day</title>
 <link rel="related" href="https://github.com/dper/kanjioftheday/" />
-<updated>2014-15-21T14:15:49Z</updated>
+<link rel="self" href="https://dperkins.org/kanjioftheday//elementary.3.xml" />
+<updated>2014-22-21T14:22:07Z</updated>
 <author>
 <name>Douglas Paul Perkins</name>
 </author>
 <id>https://dperkins.org/kanjioftheday//elementary.3.xml</id>
 
 <entry>
-<title>Kanji of the Day: 去</title>
-<id>https://dperkins.org/kanjioftheday//elementary.3.xml#2014-15-21T14:15:49Z</id>
-<updated>2014-15-21T14:15:49Z</updated>
+<title>Kanji of the Day: 急</title>
+<id>https://dperkins.org/kanjioftheday//elementary.3.xml#2014-22-21T14:22:07Z</id>
+<updated>2014-22-21T14:22:07Z</updated>
 <div style="text-align: center; border: 1px solid black;">
-<p style="font-size: 300%; font-weight: bold; color: blue;">去</p>
-<p style="color: #ff66ff;">✍5</p>
+<p style="font-size: 300%; font-weight: bold; color: blue;">急</p>
+<p style="color: #ff66ff;">✍9</p>
 <p style="color: gray;">小3</p>
-<p style="color: green;">gone, past, quit, leave, elapse, eliminate, divorce</p>
-<p style="color: orange;">キョ　コ</p>
-<p style="color: red;">さ.る　-さ.る</p>
-<p>過去 &nbsp; (かこ) &nbsp; &mdash; &nbsp; the past<br />死去 &nbsp; (しきょ) &nbsp; &mdash; &nbsp; death<br />去る &nbsp; (さる) &nbsp; &mdash; &nbsp; to leave<br />撤去 &nbsp; (てっきょ) &nbsp; &mdash; &nbsp; withdrawal<br />除去 &nbsp; (じょきょ) &nbsp; &mdash; &nbsp; removal<br />去年 &nbsp; (きょねん) &nbsp; &mdash; &nbsp; last year<br />退去 &nbsp; (たいきょ) &nbsp; &mdash; &nbsp; departure<br />置き去り &nbsp; (おきざり) &nbsp; &mdash; &nbsp; desertion<br />連れ去る &nbsp; (つれさる) &nbsp; &mdash; &nbsp; to take away<br />立ち去る &nbsp; (たちさる) &nbsp; &mdash; &nbsp; to leave<br />去就 &nbsp; (きょしゅう) &nbsp; &mdash; &nbsp; course of action<br />消え去る &nbsp; (きえさる) &nbsp; &mdash; &nbsp; to disappear<br />持ち去る &nbsp; (もちさる) &nbsp; &mdash; &nbsp; to take away<br />走り去る &nbsp; (はしりさる) &nbsp; &mdash; &nbsp; to run away<br />忘れ去る &nbsp; (わすれさる) &nbsp; &mdash; &nbsp; to forget completely<br />過ぎ去る &nbsp; (すぎさる) &nbsp; &mdash; &nbsp; to pass<br />消去 &nbsp; (しょうきょ) &nbsp; &mdash; &nbsp; elimination<br />逝去 &nbsp; (せいきょ) &nbsp; &mdash; &nbsp; death<br />抜き去る &nbsp; (ぬきさる) &nbsp; &mdash; &nbsp; to (sur)pass<br />崩れ去る &nbsp; (くずれさる) &nbsp; &mdash; &nbsp; to crumble away
+<p style="color: green;">hurry, emergency, sudden, steep</p>
+<p style="color: orange;">キュウ</p>
+<p style="color: red;">いそ.ぐ　いそ.ぎ</p>
+<p>緊急 &#160; (きんきゅう) &#160; &mdash; &#160; urgent<br />急ぐ &#160; (いそぐ) &#160; &mdash; &#160; to hurry<br />急増 &#160; (きゅうぞう) &#160; &mdash; &#160; rapid increase<br />急速 &#160; (きゅうそく) &#160; &mdash; &#160; rapid (e.g., progress)<br />早急 &#160; (さっきゅう) &#160; &mdash; &#160; urgent<br />急激 &#160; (きゅうげき) &#160; &mdash; &#160; sudden<br />急性 &#160; (きゅうせい) &#160; &mdash; &#160; acute (e.g., illness)<br />急きょ &#160; (きゅうきょ) &#160; &mdash; &#160; hurriedly<br />急落 &#160; (きゅうらく) &#160; &mdash; &#160; sudden fall<br />急進 &#160; (きゅうしん) &#160; &mdash; &#160; rapid progress<br />救急 &#160; (きゅうきゅう) &#160; &mdash; &#160; first-aid<br />急騰 &#160; (きゅうとう) &#160; &mdash; &#160; sudden rise<br />特急 &#160; (とっきゅう) &#160; &mdash; &#160; limited express (train, faster than an express)<br />救急車 &#160; (きゅうきゅうしゃ) &#160; &mdash; &#160; ambulance<br />急成長 &#160; (きゅうせいちょう) &#160; &mdash; &#160; rapid growth<br />急務 &#160; (きゅうむ) &#160; &mdash; &#160; urgent business<br />急死 &#160; (きゅうし) &#160; &mdash; &#160; sudden death<br />急ピッチ &#160; (きゅうピッチ) &#160; &mdash; &#160; quick pace<br />急ぎ &#160; (いそぎ) &#160; &mdash; &#160; haste<br />緩急 &#160; (かんきゅう) &#160; &mdash; &#160; pace
 </p>
 <p style="font-size: smaller; color: gray;">This page was generated using <a href="https://github.com/dper/kanjioftheday/">kanjioftheday</a>, written by Douglas Paul Perkins.  Kanji lists came from the Ministry of Education.  Example words are derived from a <a href="http://www.bcit-broadcast.com/monash/wordfreq.README">word frequency list</a> by Alexandre Girardi.  Dictionary information is taken from <a href="http://www.csse.monash.edu.au/~jwb/kanjidic2/">KANJIDIC2</a> and <a href="http://www.edrdg.org/jmdict/edict.html">EDICT</a>.</p>
 </div>

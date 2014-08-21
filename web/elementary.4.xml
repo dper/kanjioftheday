@@ -2,24 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Kanji of the Day</title>
 <link rel="related" href="https://github.com/dper/kanjioftheday/" />
-<updated>2014-15-21T14:15:49Z</updated>
+<link rel="self" href="https://dperkins.org/kanjioftheday//elementary.4.xml" />
+<updated>2014-22-21T14:22:07Z</updated>
 <author>
 <name>Douglas Paul Perkins</name>
 </author>
 <id>https://dperkins.org/kanjioftheday//elementary.4.xml</id>
 
 <entry>
-<title>Kanji of the Day: 冷</title>
-<id>https://dperkins.org/kanjioftheday//elementary.4.xml#2014-15-21T14:15:49Z</id>
-<updated>2014-15-21T14:15:49Z</updated>
+<title>Kanji of the Day: 塩</title>
+<id>https://dperkins.org/kanjioftheday//elementary.4.xml#2014-22-21T14:22:07Z</id>
+<updated>2014-22-21T14:22:07Z</updated>
 <div style="text-align: center; border: 1px solid black;">
-<p style="font-size: 300%; font-weight: bold; color: blue;">冷</p>
-<p style="color: #ff66ff;">✍7</p>
+<p style="font-size: 300%; font-weight: bold; color: blue;">塩</p>
+<p style="color: #ff66ff;">✍13</p>
 <p style="color: gray;">小4</p>
-<p style="color: green;">cool, cold (beer, person), chill</p>
-<p style="color: orange;">レイ</p>
-<p style="color: red;">つめ.たい　ひ.える　ひ.や　ひ.ややか　ひ.やす　ひ.やかす　さ.める　さ.ます</p>
-<p>冷戦 &nbsp; (れいせん) &nbsp; &mdash; &nbsp; cold war<br />冷静 &nbsp; (れいせい) &nbsp; &mdash; &nbsp; calm<br />冷たい &nbsp; (つべたい) &nbsp; &mdash; &nbsp; cold (to the touch)<br />冷蔵庫 &nbsp; (れいぞうこ) &nbsp; &mdash; &nbsp; refrigerator<br />冷却 &nbsp; (れいきゃく) &nbsp; &mdash; &nbsp; cooling<br />冷凍 &nbsp; (れいとう) &nbsp; &mdash; &nbsp; freezing<br />冷夏 &nbsp; (れいか) &nbsp; &mdash; &nbsp; cool summer<br />冷え込む &nbsp; (ひえこむ) &nbsp; &mdash; &nbsp; to get colder<br />冷める &nbsp; (さめる) &nbsp; &mdash; &nbsp; to become cool (e.g., from a high temperature to room temperature)<br />冷やす &nbsp; (ひやす) &nbsp; &mdash; &nbsp; to cool (from room temperature)<br />冷ややか &nbsp; (ひややか) &nbsp; &mdash; &nbsp; cold<br />冷房 &nbsp; (れいぼう) &nbsp; &mdash; &nbsp; cooling<br />冷害 &nbsp; (れいがい) &nbsp; &mdash; &nbsp; cold-weather damage<br />冷え &nbsp; (ひえ) &nbsp; &mdash; &nbsp; chilliness<br />冷える &nbsp; (ひえる) &nbsp; &mdash; &nbsp; to grow cold (from room temperature, e.g., in refrigerator)<br />冷暖房 &nbsp; (れいだんぼう) &nbsp; &mdash; &nbsp; air-conditioning<br />冷水 &nbsp; (れいすい) &nbsp; &mdash; &nbsp; cold water<br />冷やかす &nbsp; (ひやかす) &nbsp; &mdash; &nbsp; to banter<br />冷淡 &nbsp; (れいたん) &nbsp; &mdash; &nbsp; coolness<br />冷媒 &nbsp; (れいばい) &nbsp; &mdash; &nbsp; refrigerant
+<p style="color: green;">salt</p>
+<p style="color: orange;">エン</p>
+<p style="color: red;">しお</p>
+<p>塩素 &#160; (えんそ) &#160; &mdash; &#160; chlorine (Cl)<br />塩分 &#160; (えんぶん) &#160; &mdash; &#160; salt<br />塩化 &#160; (えんか) &#160; &mdash; &#160; chloride<br />食塩 &#160; (しょくえん) &#160; &mdash; &#160; table salt<br />塩田 &#160; (えんでん) &#160; &mdash; &#160; saltpan<br />塩基 &#160; (えんき) &#160; &mdash; &#160; base<br />塩化ビニール &#160; (えんかビニール) &#160; &mdash; &#160; vinyl chloride<br />塩水 &#160; (えんすい) &#160; &mdash; &#160; salt water<br />塩漬け &#160; (しおづけ) &#160; &mdash; &#160; pickling in salt<br />塩尻 &#160; (しおじり) &#160; &mdash; &#160; cone-shaped<br />減塩 &#160; (げんえん) &#160; &mdash; &#160; reduction of salt<br />塩焼き &#160; (しおやき) &#160; &mdash; &#160; grilled or broiled with salt<br />塩酸 &#160; (えんさん) &#160; &mdash; &#160; hydrochloric acid<br />塩味 &#160; (しおあじ) &#160; &mdash; &#160; salty taste<br />塩害 &#160; (えんがい) &#160; &mdash; &#160; salt-air damage<br />塩ビ &#160; (えんビ) &#160; &mdash; &#160; vinyl chloride<br />塩辛 &#160; (しおから) &#160; &mdash; &#160; salted fish (entrails)<br />塩辛い &#160; (しおからい) &#160; &mdash; &#160; salty (taste)<br />手塩 &#160; (てしお) &#160; &mdash; &#160; table salt<br />岩塩 &#160; (いわしお) &#160; &mdash; &#160; halite
 </p>
 <p style="font-size: smaller; color: gray;">This page was generated using <a href="https://github.com/dper/kanjioftheday/">kanjioftheday</a>, written by Douglas Paul Perkins.  Kanji lists came from the Ministry of Education.  Example words are derived from a <a href="http://www.bcit-broadcast.com/monash/wordfreq.README">word frequency list</a> by Alexandre Girardi.  Dictionary information is taken from <a href="http://www.csse.monash.edu.au/~jwb/kanjidic2/">KANJIDIC2</a> and <a href="http://www.edrdg.org/jmdict/edict.html">EDICT</a>.</p>
 </div>

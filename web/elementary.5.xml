@@ -2,24 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Kanji of the Day</title>
 <link rel="related" href="https://github.com/dper/kanjioftheday/" />
-<updated>2014-15-21T14:15:49Z</updated>
+<link rel="self" href="https://dperkins.org/kanjioftheday//elementary.5.xml" />
+<updated>2014-22-21T14:22:07Z</updated>
 <author>
 <name>Douglas Paul Perkins</name>
 </author>
 <id>https://dperkins.org/kanjioftheday//elementary.5.xml</id>
 
 <entry>
-<title>Kanji of the Day: 略</title>
-<id>https://dperkins.org/kanjioftheday//elementary.5.xml#2014-15-21T14:15:49Z</id>
-<updated>2014-15-21T14:15:49Z</updated>
+<title>Kanji of the Day: 移</title>
+<id>https://dperkins.org/kanjioftheday//elementary.5.xml#2014-22-21T14:22:07Z</id>
+<updated>2014-22-21T14:22:07Z</updated>
 <div style="text-align: center; border: 1px solid black;">
-<p style="font-size: 300%; font-weight: bold; color: blue;">略</p>
+<p style="font-size: 300%; font-weight: bold; color: blue;">移</p>
 <p style="color: #ff66ff;">✍11</p>
 <p style="color: gray;">小5</p>
-<p style="color: green;">abbreviation, omission, outline, shorten, capture, plunder</p>
-<p style="color: orange;">リャク</p>
-<p style="color: red;">ほぼ　おか.す　おさ.める　はかりごと　はか.る　はぶ.く　りゃく.す　りゃく.する</p>
-<p>戦略 &nbsp; (せんりゃく) &nbsp; &mdash; &nbsp; strategy<br />侵略 &nbsp; (しんりゃく) &nbsp; &mdash; &nbsp; aggression<br />攻略 &nbsp; (こうりゃく) &nbsp; &mdash; &nbsp; capture<br />略称 &nbsp; (りゃくしょう) &nbsp; &mdash; &nbsp; abbreviation<br />略式 &nbsp; (りゃくしき) &nbsp; &mdash; &nbsp; informal<br />略奪 &nbsp; (りゃくだつ) &nbsp; &mdash; &nbsp; pillage<br />党略 &nbsp; (とうりゃく) &nbsp; &mdash; &nbsp; party politics (tactics)<br />省略 &nbsp; (しょうりゃく) &nbsp; &mdash; &nbsp; omission<br />簡略 &nbsp; (かんりゃく) &nbsp; &mdash; &nbsp; simple<br />中略 &nbsp; (ちゅうりゃく) &nbsp; &mdash; &nbsp; omission (of middle part of a text)<br />略歴 &nbsp; (りゃくれき) &nbsp; &mdash; &nbsp; brief personal record<br />謀略 &nbsp; (ぼうりゃく) &nbsp; &mdash; &nbsp; strategy<br />略語 &nbsp; (りゃくご) &nbsp; &mdash; &nbsp; abbreviation<br />策略 &nbsp; (さくりゃく) &nbsp; &mdash; &nbsp; scheme<br />略取 &nbsp; (りゃくしゅ) &nbsp; &mdash; &nbsp; abduction<br />概略 &nbsp; (がいりゃく) &nbsp; &mdash; &nbsp; outline<br />政略 &nbsp; (せいりゃく) &nbsp; &mdash; &nbsp; politics<br />略号 &nbsp; (りゃくごう) &nbsp; &mdash; &nbsp; code<br />後略 &nbsp; (こうりゃく) &nbsp; &mdash; &nbsp; omitting the rest<br />略図 &nbsp; (りゃくず) &nbsp; &mdash; &nbsp; rough sketch
+<p style="color: green;">shift, move, change, drift, catch (cold, fire), pass into</p>
+<p style="color: orange;">イ</p>
+<p style="color: red;">うつ.る　うつ.す</p>
+<p>移植 &#160; (いしょく) &#160; &mdash; &#160; transplanting<br />移動 &#160; (いどう) &#160; &mdash; &#160; movement<br />移転 &#160; (いてん) &#160; &mdash; &#160; moving<br />移行 &#160; (いこう) &#160; &mdash; &#160; switching over to<br />移す &#160; (うつす) &#160; &mdash; &#160; to change<br />移る &#160; (うつる) &#160; &mdash; &#160; to move (house)<br />推移 &#160; (すいい) &#160; &mdash; &#160; transition<br />移民 &#160; (いみん) &#160; &mdash; &#160; emigration<br />移住 &#160; (いじゅう) &#160; &mdash; &#160; migration<br />移籍 &#160; (いせき) &#160; &mdash; &#160; changing household registry<br />移管 &#160; (いかん) &#160; &mdash; &#160; transfer of control<br />移譲 &#160; (いじょう) &#160; &mdash; &#160; transfer<br />移送 &#160; (いそう) &#160; &mdash; &#160; transfer<br />転移 &#160; (てんい) &#160; &mdash; &#160; moving (with the times)<br />移り変わり &#160; (うつりかわり) &#160; &mdash; &#160; change (e.g., season)<br />乗り移る &#160; (のりうつる) &#160; &mdash; &#160; to change (cars or horses)<br />移入 &#160; (いにゅう) &#160; &mdash; &#160; importation<br />移ろう &#160; (うつろう) &#160; &mdash; &#160; to change (with the passage of time)<br />移築 &#160; (いちく) &#160; &mdash; &#160; dismantling an historic building and reconstructing it elsewhere<br />移り &#160; (うつり) &#160; &mdash; &#160; change
 </p>
 <p style="font-size: smaller; color: gray;">This page was generated using <a href="https://github.com/dper/kanjioftheday/">kanjioftheday</a>, written by Douglas Paul Perkins.  Kanji lists came from the Ministry of Education.  Example words are derived from a <a href="http://www.bcit-broadcast.com/monash/wordfreq.README">word frequency list</a> by Alexandre Girardi.  Dictionary information is taken from <a href="http://www.csse.monash.edu.au/~jwb/kanjidic2/">KANJIDIC2</a> and <a href="http://www.edrdg.org/jmdict/edict.html">EDICT</a>.</p>
 </div>

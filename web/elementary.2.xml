@@ -2,24 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Kanji of the Day</title>
 <link rel="related" href="https://github.com/dper/kanjioftheday/" />
-<updated>2014-15-21T14:15:49Z</updated>
+<link rel="self" href="https://dperkins.org/kanjioftheday//elementary.2.xml" />
+<updated>2014-22-21T14:22:07Z</updated>
 <author>
 <name>Douglas Paul Perkins</name>
 </author>
 <id>https://dperkins.org/kanjioftheday//elementary.2.xml</id>
 
 <entry>
-<title>Kanji of the Day: 羽</title>
-<id>https://dperkins.org/kanjioftheday//elementary.2.xml#2014-15-21T14:15:49Z</id>
-<updated>2014-15-21T14:15:49Z</updated>
+<title>Kanji of the Day: 話</title>
+<id>https://dperkins.org/kanjioftheday//elementary.2.xml#2014-22-21T14:22:07Z</id>
+<updated>2014-22-21T14:22:07Z</updated>
 <div style="text-align: center; border: 1px solid black;">
-<p style="font-size: 300%; font-weight: bold; color: blue;">羽</p>
-<p style="color: #ff66ff;">✍6</p>
+<p style="font-size: 300%; font-weight: bold; color: blue;">話</p>
+<p style="color: #ff66ff;">✍13</p>
 <p style="color: gray;">小2</p>
-<p style="color: green;">feathers, counter for birds, rabbits</p>
-<p style="color: orange;">ウ</p>
-<p style="color: red;">は　わ　はね</p>
-<p>羽根 &nbsp; (はね) &nbsp; &mdash; &nbsp; feather<br />羽毛 &nbsp; (うもう) &nbsp; &mdash; &nbsp; feathers<br />羽目 &nbsp; (はめ) &nbsp; &mdash; &nbsp; panel<br />白羽 &nbsp; (しらは) &nbsp; &mdash; &nbsp; white feather<br />切羽詰まる &nbsp; (せっぱつまる) &nbsp; &mdash; &nbsp; to be at one's wits' end<br />羽衣 &nbsp; (うい) &nbsp; &mdash; &nbsp; angel's raiment<br />羽織 &nbsp; (はおり) &nbsp; &mdash; &nbsp; haori (Japanese formal coat)<br />羽ばたく &nbsp; (はばたく) &nbsp; &mdash; &nbsp; to flap (wings)<br />羽化 &nbsp; (うか) &nbsp; &mdash; &nbsp; emergence (of insects)<br />羽振り &nbsp; (はぶり) &nbsp; &mdash; &nbsp; plumage<br />羽子板 &nbsp; (はごいた) &nbsp; &mdash; &nbsp; battledore (early form of badminton racket)<br />切り羽 &nbsp; (きりは) &nbsp; &mdash; &nbsp; face (of a wall of coal or ore, etc.)<br />羽織る &nbsp; (はおる) &nbsp; &mdash; &nbsp; to put on<br />手羽 &nbsp; (てば) &nbsp; &mdash; &nbsp; chicken wing<br />千羽鶴 &nbsp; (せんばづる) &nbsp; &mdash; &nbsp; many (traditionally 1000) paper cranes<br />羽音 &nbsp; (はおと) &nbsp; &mdash; &nbsp; sound of flapping wings (of a bird)<br />三羽烏 &nbsp; (さんばがらす) &nbsp; &mdash; &nbsp; trio<br />羽二重 &nbsp; (はぶたえ) &nbsp; &mdash; &nbsp; habutai<br />陣羽織 &nbsp; (じんばおり) &nbsp; &mdash; &nbsp; battle surcoat<br />羽織袴 &nbsp; (はおりはかま) &nbsp; &mdash; &nbsp; Japanese male formal attire
+<p style="color: green;">tale, talk</p>
+<p style="color: orange;">ワ</p>
+<p style="color: red;">はな.す　はなし</p>
+<p>話す &#160; (はなす) &#160; &mdash; &#160; to talk<br />電話 &#160; (でんわ) &#160; &mdash; &#160; telephone call<br />話題 &#160; (わだい) &#160; &mdash; &#160; topic<br />話し合う &#160; (はなしあう) &#160; &mdash; &#160; to discuss<br />対話 &#160; (たいわ) &#160; &mdash; &#160; dialogue<br />話し合い &#160; (はなしあい) &#160; &mdash; &#160; discussion<br />会話 &#160; (かいわ) &#160; &mdash; &#160; conversation<br />世話 &#160; (せわ) &#160; &mdash; &#160; looking after<br />談話 &#160; (だんわ) &#160; &mdash; &#160; a talk<br />通話 &#160; (つうわ) &#160; &mdash; &#160; telephone call<br />世話人 &#160; (せわにん) &#160; &mdash; &#160; sponsor<br />話し &#160; (はなし) &#160; &mdash; &#160; talk<br />神話 &#160; (しんわ) &#160; &mdash; &#160; myth<br />童話 &#160; (どうわ) &#160; &mdash; &#160; fairy-tale<br />話しかける &#160; (はなしかける) &#160; &mdash; &#160; to address (someone)<br />話せる &#160; (はなせる) &#160; &mdash; &#160; to be able to speak<br />公衆電話 &#160; (こうしゅうでんわ) &#160; &mdash; &#160; public telephone<br />電話機 &#160; (でんわき) &#160; &mdash; &#160; telephone instrument<br />手話 &#160; (しゅわ) &#160; &mdash; &#160; sign language<br />受話器 &#160; (じゅわき) &#160; &mdash; &#160; receiver
 </p>
 <p style="font-size: smaller; color: gray;">This page was generated using <a href="https://github.com/dper/kanjioftheday/">kanjioftheday</a>, written by Douglas Paul Perkins.  Kanji lists came from the Ministry of Education.  Example words are derived from a <a href="http://www.bcit-broadcast.com/monash/wordfreq.README">word frequency list</a> by Alexandre Girardi.  Dictionary information is taken from <a href="http://www.csse.monash.edu.au/~jwb/kanjidic2/">KANJIDIC2</a> and <a href="http://www.edrdg.org/jmdict/edict.html">EDICT</a>.</p>
 </div>
