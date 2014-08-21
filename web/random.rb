@@ -17,7 +17,7 @@
 # == AUTHOR
 #   Douglas P Perkins - https://dperkins.org - https://microca.st/dper
 
-require 'nokogiri'
+require 'date'
 
 Script_dir = File.dirname(__FILE__)
 URL = "https://dperkins.org/kanjioftheday/"
