@@ -79,7 +79,7 @@ class Styler
 	end
 
 	# Returns the kunyomis -- zero or more.
-	def get_kinyomis
+	def get_kunyomis
 		return @line.split("\t")[5]
 	end
 
@@ -97,8 +97,17 @@ class Styler
 		text += "</head>\n"
 		text += "<body>\n"
 
-		#TODO
-		text += "Stuff!"
+		text += "<div style=\"text-align: center; border: 1px solid black;\">\n"
+
+		text += "<p style=\"font-size: 300%; font-weight: bold; color: blue;\">" + get_literal + "</p>\n"
+		text += "<p style=\"color: #ff66ff;\">" + get_strokes + "</p>\n"
+		text += "<p style=\"color: gray;\">" + get_grade + "</p>\n"
+		text += "<p style=\"color: green;\">" + get_meanings + "</p>\n"
+		text += "<p style=\"orange;\">" + get_onyomis + "</p>\n"
+		text += "<p style=\"red;\">" + get_kunyomis + "</p>\n"
+		text += "<p>" + get_examples + "</p>\n"
+
+		text += "</div>\n"
 
 		text += "</body>\n"
 		text += "</html>\n"
