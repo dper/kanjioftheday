@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Kanji of the Day</title>
+<link rel="related" href="https://github.com/dper/kanjioftheday/" />
+<updated>2014-15-21T14:15:49Z</updated>
+<author>
+<name>Douglas Paul Perkins</name>
+</author>
+<id>https://dperkins.org/kanjioftheday//jhs.xml</id>
+
+<entry>
+<title>Kanji of the Day: 裂</title>
+<id>https://dperkins.org/kanjioftheday//jhs.xml#2014-15-21T14:15:49Z</id>
+<updated>2014-15-21T14:15:49Z</updated>
+<div style="text-align: center; border: 1px solid black;">
+<p style="font-size: 300%; font-weight: bold; color: blue;">裂</p>
+<p style="color: #ff66ff;">✍12</p>
+<p style="color: gray;">中学</p>
+<p style="color: green;">split, rend, tear</p>
+<p style="color: orange;">レツ</p>
+<p style="color: red;">さ.く　さ.ける　-ぎ.れ</p>
+<p>分裂 &nbsp; (ぶんれつ) &nbsp; &mdash; &nbsp; split<br />決裂 &nbsp; (けつれつ) &nbsp; &mdash; &nbsp; breakdown<br />亀裂 &nbsp; (きれつ) &nbsp; &mdash; &nbsp; crack<br />破裂 &nbsp; (はれつ) &nbsp; &mdash; &nbsp; explosion<br />核分裂 &nbsp; (かくぶんれつ) &nbsp; &mdash; &nbsp; nuclear fission<br />引き裂く &nbsp; (ひきさく) &nbsp; &mdash; &nbsp; to tear up<br />裂く &nbsp; (さく) &nbsp; &mdash; &nbsp; to tear<br />切り裂く &nbsp; (きりさく) &nbsp; &mdash; &nbsp; to cut off<br />裂ける &nbsp; (さける) &nbsp; &mdash; &nbsp; to split<br />四分五裂 &nbsp; (しぶごれつ) &nbsp; &mdash; &nbsp; torn asunder<br />裂け目 &nbsp; (さけめ) &nbsp; &mdash; &nbsp; tear<br />断裂 &nbsp; (だんれつ) &nbsp; &mdash; &nbsp; snapping apart<br />精神分裂病 &nbsp; (せいしんぶんれつびょう) &nbsp; &mdash; &nbsp; schizophrenia<br />細胞分裂 &nbsp; (さいぼうぶんれつ) &nbsp; &mdash; &nbsp; cell division<br />分裂病 &nbsp; (ぶんれつびょう) &nbsp; &mdash; &nbsp; schizophrenia<br />張り裂ける &nbsp; (はりさける) &nbsp; &mdash; &nbsp; to burst (open)<br />裂傷 &nbsp; (れっしょう) &nbsp; &mdash; &nbsp; laceration<br />炸裂 &nbsp; (さくれつ) &nbsp; &mdash; &nbsp; explosion<br />精神分裂症 &nbsp; (せいしんぶんれつしょう) &nbsp; &mdash; &nbsp; schizophrenia<br />支離滅裂 &nbsp; (しりめつれつ) &nbsp; &mdash; &nbsp; incoherent
+</p>
+<p style="font-size: smaller; color: gray;">This page was generated using <a href="https://github.com/dper/kanjioftheday/">kanjioftheday</a>, written by Douglas Paul Perkins.  Kanji lists came from the Ministry of Education.  Example words are derived from a <a href="http://www.bcit-broadcast.com/monash/wordfreq.README">word frequency list</a> by Alexandre Girardi.  Dictionary information is taken from <a href="http://www.csse.monash.edu.au/~jwb/kanjidic2/">KANJIDIC2</a> and <a href="http://www.edrdg.org/jmdict/edict.html">EDICT</a>.</p>
+</div>
+</entry>
+</feed>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Kanji of the Day</title>
+<link rel="related" href="https://github.com/dper/kanjioftheday/" />
+<updated>2014-15-21T14:15:49Z</updated>
+<author>
+<name>Douglas Paul Perkins</name>
+</author>
+<id>https://dperkins.org/kanjioftheday//elementary.2.xml</id>
+
+<entry>
+<title>Kanji of the Day: 羽</title>
+<id>https://dperkins.org/kanjioftheday//elementary.2.xml#2014-15-21T14:15:49Z</id>
+<updated>2014-15-21T14:15:49Z</updated>
+<div style="text-align: center; border: 1px solid black;">
+<p style="font-size: 300%; font-weight: bold; color: blue;">羽</p>
+<p style="color: #ff66ff;">✍6</p>
+<p style="color: gray;">小2</p>
+<p style="color: green;">feathers, counter for birds, rabbits</p>
+<p style="color: orange;">ウ</p>
+<p style="color: red;">は　わ　はね</p>
+<p>羽根 &nbsp; (はね) &nbsp; &mdash; &nbsp; feather<br />羽毛 &nbsp; (うもう) &nbsp; &mdash; &nbsp; feathers<br />羽目 &nbsp; (はめ) &nbsp; &mdash; &nbsp; panel<br />白羽 &nbsp; (しらは) &nbsp; &mdash; &nbsp; white feather<br />切羽詰まる &nbsp; (せっぱつまる) &nbsp; &mdash; &nbsp; to be at one's wits' end<br />羽衣 &nbsp; (うい) &nbsp; &mdash; &nbsp; angel's raiment<br />羽織 &nbsp; (はおり) &nbsp; &mdash; &nbsp; haori (Japanese formal coat)<br />羽ばたく &nbsp; (はばたく) &nbsp; &mdash; &nbsp; to flap (wings)<br />羽化 &nbsp; (うか) &nbsp; &mdash; &nbsp; emergence (of insects)<br />羽振り &nbsp; (はぶり) &nbsp; &mdash; &nbsp; plumage<br />羽子板 &nbsp; (はごいた) &nbsp; &mdash; &nbsp; battledore (early form of badminton racket)<br />切り羽 &nbsp; (きりは) &nbsp; &mdash; &nbsp; face (of a wall of coal or ore, etc.)<br />羽織る &nbsp; (はおる) &nbsp; &mdash; &nbsp; to put on<br />手羽 &nbsp; (てば) &nbsp; &mdash; &nbsp; chicken wing<br />千羽鶴 &nbsp; (せんばづる) &nbsp; &mdash; &nbsp; many (traditionally 1000) paper cranes<br />羽音 &nbsp; (はおと) &nbsp; &mdash; &nbsp; sound of flapping wings (of a bird)<br />三羽烏 &nbsp; (さんばがらす) &nbsp; &mdash; &nbsp; trio<br />羽二重 &nbsp; (はぶたえ) &nbsp; &mdash; &nbsp; habutai<br />陣羽織 &nbsp; (じんばおり) &nbsp; &mdash; &nbsp; battle surcoat<br />羽織袴 &nbsp; (はおりはかま) &nbsp; &mdash; &nbsp; Japanese male formal attire
+</p>
+<p style="font-size: smaller; color: gray;">This page was generated using <a href="https://github.com/dper/kanjioftheday/">kanjioftheday</a>, written by Douglas Paul Perkins.  Kanji lists came from the Ministry of Education.  Example words are derived from a <a href="http://www.bcit-broadcast.com/monash/wordfreq.README">word frequency list</a> by Alexandre Girardi.  Dictionary information is taken from <a href="http://www.csse.monash.edu.au/~jwb/kanjidic2/">KANJIDIC2</a> and <a href="http://www.edrdg.org/jmdict/edict.html">EDICT</a>.</p>
+</div>
+</entry>
+</feed>

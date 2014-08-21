@@ -407,7 +407,7 @@ class Detailsmaker
 			kana = example.kana
 			meaning = example.meaning
 
-			s += word + ' &nbsp; (' + kana + ') &nbsp; &mdash; &nbsp; ' + meaning
+			s += word + ' &#160; (' + kana + ') &#160; &mdash; &#160; ' + meaning
 			s += '<br />'
 		end
 

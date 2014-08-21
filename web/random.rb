@@ -54,7 +54,9 @@ class Styler
 	# Styles the given line.
 	def initialize (line, output)
 		@line = line
+		@output = output
 		style_core
+		style_atom
 	end
 
 	# Returns the literal.
@@ -121,13 +123,14 @@ class Styler
 	def style_atom
 		updated = time
 		atom_id = URL + '/' + @output
-		link = "https://github.com/dper/kanjioftheday/"
+		project = "https://github.com/dper/kanjioftheday/"
 		entry_id = atom_id + "#" + updated	
 
 		atom = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n"
 		atom += "<feed xmlns=\"http://www.w3.org/2005/Atom\">\n"
 		atom += "<title>Kanji of the Day</title>\n"
-		atom += "<link rel=\"related\" href=\"" + link + "\" />\n"
+		atom += "<link rel=\"related\" href=\"" + project + "\" />\n"
+		atom += "<link rel=\"self\" href=\"" + atom_id + "\" />\n"
 		atom += "<updated>" + updated + "</updated>\n"
 		atom += "<author>\n"
 		atom += "<name>" + Author + "</name>\n"
@@ -147,9 +150,9 @@ class Styler
 		puts atom
 	end
 
-	def write_atom output
-		puts 'Writing to ' + output + ' ...'
-		open(output, 'w') do |file|
+	def write_atom
+		puts 'Writing to ' + @output + ' ...'
+		open(@output, 'w') do |file|
 			file.puts @atom
 		end
 	end
@@ -159,7 +162,7 @@ end
 def write_random (input, output)
 	$details = Details.new input
 	$styler = Styler.new($details.line, output)
-	$styler.write_atom output
+	$styler.write_atom
 end
 
 # Writes the random kanji Atom feeds for a bunch of files.

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Kanji of the Day</title>
+<link rel="related" href="https://github.com/dper/kanjioftheday/" />
+<updated>2014-15-21T14:15:49Z</updated>
+<author>
+<name>Douglas Paul Perkins</name>
+</author>
+<id>https://dperkins.org/kanjioftheday//elementary.1.xml</id>
+
+<entry>
+<title>Kanji of the Day: 口</title>
+<id>https://dperkins.org/kanjioftheday//elementary.1.xml#2014-15-21T14:15:49Z</id>
+<updated>2014-15-21T14:15:49Z</updated>
+<div style="text-align: center; border: 1px solid black;">
+<p style="font-size: 300%; font-weight: bold; color: blue;">口</p>
+<p style="color: #ff66ff;">✍3</p>
+<p style="color: gray;">小1</p>
+<p style="color: green;">mouth</p>
+<p style="color: orange;">コウ　ク</p>
+<p style="color: red;">くち</p>
+<p>人口 &nbsp; (じんこう) &nbsp; &mdash; &nbsp; population<br />窓口 &nbsp; (まどぐち) &nbsp; &mdash; &nbsp; ticket window<br />口座 &nbsp; (こうざ) &nbsp; &mdash; &nbsp; account (e.g., bank)<br />入り口 &nbsp; (いりくち) &nbsp; &mdash; &nbsp; entrance<br />大口 &nbsp; (おおくち) &nbsp; &mdash; &nbsp; big mouth<br />川口 &nbsp; (かわぐち) &nbsp; &mdash; &nbsp; mouth of river<br />出口 &nbsp; (でぐち) &nbsp; &mdash; &nbsp; exit<br />口調 &nbsp; (くちょう) &nbsp; &mdash; &nbsp; tone (e.g., of voice, etc.)<br />手口 &nbsp; (てぐち) &nbsp; &mdash; &nbsp; modus operandi<br />河口 &nbsp; (かこう) &nbsp; &mdash; &nbsp; mouth of river<br />小口 &nbsp; (こぐち) &nbsp; &mdash; &nbsp; cut end<br />西口 &nbsp; (にしぐち) &nbsp; &mdash; &nbsp; west entrance<br />糸口 &nbsp; (いとぐち) &nbsp; &mdash; &nbsp; thread end<br />火口 &nbsp; (かこう) &nbsp; &mdash; &nbsp; crater<br />口頭 &nbsp; (こうとう) &nbsp; &mdash; &nbsp; oral<br />口実 &nbsp; (こうじつ) &nbsp; &mdash; &nbsp; excuse<br />悪口 &nbsp; (あっこう) &nbsp; &mdash; &nbsp; abuse<br />一口 &nbsp; (ひとくち) &nbsp; &mdash; &nbsp; mouthful<br />口論 &nbsp; (こうろん) &nbsp; &mdash; &nbsp; dispute<br />口頭弁論 &nbsp; (こうとうべんろん) &nbsp; &mdash; &nbsp; oral proceedings
+</p>
+<p style="font-size: smaller; color: gray;">This page was generated using <a href="https://github.com/dper/kanjioftheday/">kanjioftheday</a>, written by Douglas Paul Perkins.  Kanji lists came from the Ministry of Education.  Example words are derived from a <a href="http://www.bcit-broadcast.com/monash/wordfreq.README">word frequency list</a> by Alexandre Girardi.  Dictionary information is taken from <a href="http://www.csse.monash.edu.au/~jwb/kanjidic2/">KANJIDIC2</a> and <a href="http://www.edrdg.org/jmdict/edict.html">EDICT</a>.</p>
+</div>
+</entry>
+</feed>

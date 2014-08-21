@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Kanji of the Day</title>
+<link rel="related" href="https://github.com/dper/kanjioftheday/" />
+<updated>2014-15-21T14:15:49Z</updated>
+<author>
+<name>Douglas Paul Perkins</name>
+</author>
+<id>https://dperkins.org/kanjioftheday//elementary.4.xml</id>
+
+<entry>
+<title>Kanji of the Day: 冷</title>
+<id>https://dperkins.org/kanjioftheday//elementary.4.xml#2014-15-21T14:15:49Z</id>
+<updated>2014-15-21T14:15:49Z</updated>
+<div style="text-align: center; border: 1px solid black;">
+<p style="font-size: 300%; font-weight: bold; color: blue;">冷</p>
+<p style="color: #ff66ff;">✍7</p>
+<p style="color: gray;">小4</p>
+<p style="color: green;">cool, cold (beer, person), chill</p>
+<p style="color: orange;">レイ</p>
+<p style="color: red;">つめ.たい　ひ.える　ひ.や　ひ.ややか　ひ.やす　ひ.やかす　さ.める　さ.ます</p>
+<p>冷戦 &nbsp; (れいせん) &nbsp; &mdash; &nbsp; cold war<br />冷静 &nbsp; (れいせい) &nbsp; &mdash; &nbsp; calm<br />冷たい &nbsp; (つべたい) &nbsp; &mdash; &nbsp; cold (to the touch)<br />冷蔵庫 &nbsp; (れいぞうこ) &nbsp; &mdash; &nbsp; refrigerator<br />冷却 &nbsp; (れいきゃく) &nbsp; &mdash; &nbsp; cooling<br />冷凍 &nbsp; (れいとう) &nbsp; &mdash; &nbsp; freezing<br />冷夏 &nbsp; (れいか) &nbsp; &mdash; &nbsp; cool summer<br />冷え込む &nbsp; (ひえこむ) &nbsp; &mdash; &nbsp; to get colder<br />冷める &nbsp; (さめる) &nbsp; &mdash; &nbsp; to become cool (e.g., from a high temperature to room temperature)<br />冷やす &nbsp; (ひやす) &nbsp; &mdash; &nbsp; to cool (from room temperature)<br />冷ややか &nbsp; (ひややか) &nbsp; &mdash; &nbsp; cold<br />冷房 &nbsp; (れいぼう) &nbsp; &mdash; &nbsp; cooling<br />冷害 &nbsp; (れいがい) &nbsp; &mdash; &nbsp; cold-weather damage<br />冷え &nbsp; (ひえ) &nbsp; &mdash; &nbsp; chilliness<br />冷える &nbsp; (ひえる) &nbsp; &mdash; &nbsp; to grow cold (from room temperature, e.g., in refrigerator)<br />冷暖房 &nbsp; (れいだんぼう) &nbsp; &mdash; &nbsp; air-conditioning<br />冷水 &nbsp; (れいすい) &nbsp; &mdash; &nbsp; cold water<br />冷やかす &nbsp; (ひやかす) &nbsp; &mdash; &nbsp; to banter<br />冷淡 &nbsp; (れいたん) &nbsp; &mdash; &nbsp; coolness<br />冷媒 &nbsp; (れいばい) &nbsp; &mdash; &nbsp; refrigerant
+</p>
+<p style="font-size: smaller; color: gray;">This page was generated using <a href="https://github.com/dper/kanjioftheday/">kanjioftheday</a>, written by Douglas Paul Perkins.  Kanji lists came from the Ministry of Education.  Example words are derived from a <a href="http://www.bcit-broadcast.com/monash/wordfreq.README">word frequency list</a> by Alexandre Girardi.  Dictionary information is taken from <a href="http://www.csse.monash.edu.au/~jwb/kanjidic2/">KANJIDIC2</a> and <a href="http://www.edrdg.org/jmdict/edict.html">EDICT</a>.</p>
+</div>
+</entry>
+</feed>

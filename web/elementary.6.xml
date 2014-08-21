@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Kanji of the Day</title>
+<link rel="related" href="https://github.com/dper/kanjioftheday/" />
+<updated>2014-15-21T14:15:49Z</updated>
+<author>
+<name>Douglas Paul Perkins</name>
+</author>
+<id>https://dperkins.org/kanjioftheday//elementary.6.xml</id>
+
+<entry>
+<title>Kanji of the Day: 鋼</title>
+<id>https://dperkins.org/kanjioftheday//elementary.6.xml#2014-15-21T14:15:49Z</id>
+<updated>2014-15-21T14:15:49Z</updated>
+<div style="text-align: center; border: 1px solid black;">
+<p style="font-size: 300%; font-weight: bold; color: blue;">鋼</p>
+<p style="color: #ff66ff;">✍16</p>
+<p style="color: gray;">小6</p>
+<p style="color: green;">steel</p>
+<p style="color: orange;">コウ</p>
+<p style="color: red;">はがね</p>
+<p>鉄鋼 &nbsp; (てっこう) &nbsp; &mdash; &nbsp; iron and steel<br />製鋼 &nbsp; (せいこう) &nbsp; &mdash; &nbsp; steel manufacture<br />鋼材 &nbsp; (こうざい) &nbsp; &mdash; &nbsp; steel material<br />鋼板 &nbsp; (こうはん) &nbsp; &mdash; &nbsp; steel sheet<br />粗鋼 &nbsp; (そこう) &nbsp; &mdash; &nbsp; crude steel<br />鋼管 &nbsp; (こうかん) &nbsp; &mdash; &nbsp; steel pipe<br />鋼鉄 &nbsp; (こうてつ) &nbsp; &mdash; &nbsp; steel<br />特殊鋼 &nbsp; (とくしゅこう) &nbsp; &mdash; &nbsp; special steel<br />鋼製 &nbsp; (こうせい) &nbsp; &mdash; &nbsp; made of steel
+</p>
+<p style="font-size: smaller; color: gray;">This page was generated using <a href="https://github.com/dper/kanjioftheday/">kanjioftheday</a>, written by Douglas Paul Perkins.  Kanji lists came from the Ministry of Education.  Example words are derived from a <a href="http://www.bcit-broadcast.com/monash/wordfreq.README">word frequency list</a> by Alexandre Girardi.  Dictionary information is taken from <a href="http://www.csse.monash.edu.au/~jwb/kanjidic2/">KANJIDIC2</a> and <a href="http://www.edrdg.org/jmdict/edict.html">EDICT</a>.</p>
+</div>
+</entry>
+</feed>

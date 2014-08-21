@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Kanji of the Day</title>
+<link rel="related" href="https://github.com/dper/kanjioftheday/" />
+<updated>2014-15-21T14:15:49Z</updated>
+<author>
+<name>Douglas Paul Perkins</name>
+</author>
+<id>https://dperkins.org/kanjioftheday//elementary.5.xml</id>
+
+<entry>
+<title>Kanji of the Day: 略</title>
+<id>https://dperkins.org/kanjioftheday//elementary.5.xml#2014-15-21T14:15:49Z</id>
+<updated>2014-15-21T14:15:49Z</updated>
+<div style="text-align: center; border: 1px solid black;">
+<p style="font-size: 300%; font-weight: bold; color: blue;">略</p>
+<p style="color: #ff66ff;">✍11</p>
+<p style="color: gray;">小5</p>
+<p style="color: green;">abbreviation, omission, outline, shorten, capture, plunder</p>
+<p style="color: orange;">リャク</p>
+<p style="color: red;">ほぼ　おか.す　おさ.める　はかりごと　はか.る　はぶ.く　りゃく.す　りゃく.する</p>
+<p>戦略 &nbsp; (せんりゃく) &nbsp; &mdash; &nbsp; strategy<br />侵略 &nbsp; (しんりゃく) &nbsp; &mdash; &nbsp; aggression<br />攻略 &nbsp; (こうりゃく) &nbsp; &mdash; &nbsp; capture<br />略称 &nbsp; (りゃくしょう) &nbsp; &mdash; &nbsp; abbreviation<br />略式 &nbsp; (りゃくしき) &nbsp; &mdash; &nbsp; informal<br />略奪 &nbsp; (りゃくだつ) &nbsp; &mdash; &nbsp; pillage<br />党略 &nbsp; (とうりゃく) &nbsp; &mdash; &nbsp; party politics (tactics)<br />省略 &nbsp; (しょうりゃく) &nbsp; &mdash; &nbsp; omission<br />簡略 &nbsp; (かんりゃく) &nbsp; &mdash; &nbsp; simple<br />中略 &nbsp; (ちゅうりゃく) &nbsp; &mdash; &nbsp; omission (of middle part of a text)<br />略歴 &nbsp; (りゃくれき) &nbsp; &mdash; &nbsp; brief personal record<br />謀略 &nbsp; (ぼうりゃく) &nbsp; &mdash; &nbsp; strategy<br />略語 &nbsp; (りゃくご) &nbsp; &mdash; &nbsp; abbreviation<br />策略 &nbsp; (さくりゃく) &nbsp; &mdash; &nbsp; scheme<br />略取 &nbsp; (りゃくしゅ) &nbsp; &mdash; &nbsp; abduction<br />概略 &nbsp; (がいりゃく) &nbsp; &mdash; &nbsp; outline<br />政略 &nbsp; (せいりゃく) &nbsp; &mdash; &nbsp; politics<br />略号 &nbsp; (りゃくごう) &nbsp; &mdash; &nbsp; code<br />後略 &nbsp; (こうりゃく) &nbsp; &mdash; &nbsp; omitting the rest<br />略図 &nbsp; (りゃくず) &nbsp; &mdash; &nbsp; rough sketch
+</p>
+<p style="font-size: smaller; color: gray;">This page was generated using <a href="https://github.com/dper/kanjioftheday/">kanjioftheday</a>, written by Douglas Paul Perkins.  Kanji lists came from the Ministry of Education.  Example words are derived from a <a href="http://www.bcit-broadcast.com/monash/wordfreq.README">word frequency list</a> by Alexandre Girardi.  Dictionary information is taken from <a href="http://www.csse.monash.edu.au/~jwb/kanjidic2/">KANJIDIC2</a> and <a href="http://www.edrdg.org/jmdict/edict.html">EDICT</a>.</p>
+</div>
+</entry>
+</feed>
