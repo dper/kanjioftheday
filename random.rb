@@ -20,17 +20,17 @@
 require 'nokogiri'
 
 Script_dir = File.dirname(__FILE__)
-Details_file = Script_dir + '/details.txt'
-Link = "https://dperkins.org/kanjioftheday/"
+URL = "https://dperkins.org/kanjioftheday/"
 Author = "Douglas Paul Perkins"
 
 # The entire details file.
 class Details
 	attr_accessor :line	# A random line from the details file.
+	
 
 	# Creates a Details.
-	def initialize
-		path = Script_dir + '/' + Details_file
+	def initialize (input)
+		path = Script_dir + '/' + input
 		details = IO.readlines path
 		details.delete_if {|line| line.start_with? '#'}
 		details.delete_if {|line| not line.include? "\t"}
@@ -49,12 +49,12 @@ end
 class Styler
 	attr_accessor :html	# Styled HTML output.
 	attr_accessor :atom	# Styled Atom output.
+	attr_accessor :output	# The output file.
 
 	# Styles the given line.
-	def initialize (line)
+	def initialize (line, output)
 		@line = line
 		style_core
-		style_html
 	end
 
 	# Returns the literal.
@@ -99,7 +99,7 @@ class Styler
 
 	# Makes a styled HTML block for embedding.
 	def style_core
-		core += "<div style=\"text-align: center; border: 1px solid black;\">\n"
+		core = "<div style=\"text-align: center; border: 1px solid black;\">\n"
 		core += "<p style=\"font-size: 300%; font-weight: bold; color: blue;\">" + get_literal + "</p>\n"
 		core += "<p style=\"color: #ff66ff;\">" + get_strokes + "</p>\n"
 		core += "<p style=\"color: gray;\">" + get_grade + "</p>\n"
@@ -109,52 +109,59 @@ class Styler
 		core += "<p>" + get_examples + "</p>\n"
 		core += "</div>\n"
 		@core = core	
-		
-	# Makes the HTML.
-	def style_html
-		html = "<html>\n"
-		html += "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01//EN\">\n"
-		html += "<head>\n"
-		html += "<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\" >\n"
-		html += "</head>\n"
-		html += "<body>\n"
-		html += @core
-		html += "</body>\n"
-		html += "</html>\n"
-		@html = html
-
-		puts @output
 	end
 	
 	def style_atom
+		updated = time
+		atom_id = URL + '/' + @output
+		link = "https://github.com/dper/kanjioftheday/"
+		entry_id = atom_id + "#" + updated	
+
 		atom = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n"
 		atom += "<feed xmlns=\"http://www.w3.org/2005/Atom\">\n"
 		atom += "<title>Kanji of the Day</title>\n"
-		atom += "<link href=\">" + Link + "\" />\n"
-		atom += "<updated>" + ??? + "</updated>\n"
+		atom += "<link rel=\"related\" href=\"" + link + "\" />\n"
+		atom += "<updated>" + updated + "</updated>\n"
 		atom += "<author>\n"
 		atom += "<name>" + Author + "</name>\n"
 		atom += "</author>\n"
-		#TODO ID
+		atom += "<id>" + atom_id + "</id>\n"
 
 		atom += "\n"		
-		
+	
 		atom += "<entry>\n"
 		atom += "<title>Kanji of the Day: " + get_literal + "</title>\n"
-		#TODO ID
-		#TODO Updated
+		atom += "<id>" + entry_id + "</id>\n"
+		atom += "<updated>" + updated + "</updated>\n"
 		atom += @core
 		atom += "</entry>\n"
 		atom += "</feed>\n"
 		@atom = atom
+	end
+
+	def write_atom output
+		puts output
+		#TODO
+	end
 end
 
-def write_random
-	# Read the files and data.
-	$details = Details.new
-	$styler = Styler.new $details.line
-
-	# Write the output.
+# Writes the random kanji Atom feed for a file.
+def write_random (input, output)
+	$details = Details.new input
+	$styler = Styler.new($details.line, output)
+	$styler.write_atom output
 end
 
-write_random
+# Writes the random kanji Atom feeds for a bunch of files.
+def write_many_random
+	write_random("elementary.1.txt", "elementary.1.atom")
+	write_random("elementary.2.txt", "elementary.2.atom")
+	write_random("elementary.3.txt", "elementary.3.atom")
+	write_random("elementary.4.txt", "elementary.4.atom")
+	write_random("elementary.5.txt", "elementary.5.atom")
+	write_random("elementary.6.txt", "elementary.6.atom")
+	write_random("elementary.txt", "elementary.atom")
+	write_random("jhs.txt", "jhs.atom")
+end
+
+write_many_random

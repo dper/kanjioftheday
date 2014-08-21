@@ -92,6 +92,12 @@ class Styler
 		return @line.split("\t")[6]
 	end
 
+	# Returns an attribution string.
+	def get_attribution
+		attribution = "This page was generated using <a href=\"https://github.com/dper/kanjioftheday/\">kanjioftheday</a>, written by Douglas Paul Perkins.  Kanji lists came from the Ministry of Education.  Example words are derived from a <a href=\"http://www.bcit-broadcast.com/monash/wordfreq.README\">word frequency list</a> by Alexandre Girardi.  Dictionary information is taken from <a href=\"http://www.csse.monash.edu.au/~jwb/kanjidic2/\">KANJIDIC2</a> and <a href=\"http://www.edrdg.org/jmdict/edict.html\">EDICT</a>."
+		return attribution
+	end
+
 	# Returns the current date and time as a string.
 	def time
 		return Time.now.utc.strftime("%Y-%M-%dT%H:%M:%SZ")
@@ -107,6 +113,7 @@ class Styler
 		core += "<p style=\"color: orange;\">" + get_onyomis + "</p>\n"
 		core += "<p style=\"color: red;\">" + get_kunyomis + "</p>\n"
 		core += "<p>" + get_examples + "</p>\n"
+		core += "<p style=\"font-size: smaller; color: gray;\">" + get_attribution + "</p>\n"
 		core += "</div>\n"
 		@core = core	
 	end
@@ -137,11 +144,14 @@ class Styler
 		atom += "</entry>\n"
 		atom += "</feed>\n"
 		@atom = atom
+		puts atom
 	end
 
 	def write_atom output
-		puts output
-		#TODO
+		puts 'Writing to ' + output + ' ...'
+		open(output, 'w') do |file|
+			file.puts @atom
+		end
 	end
 end
 
@@ -154,14 +164,14 @@ end
 
 # Writes the random kanji Atom feeds for a bunch of files.
 def write_many_random
-	write_random("elementary.1.txt", "elementary.1.atom")
-	write_random("elementary.2.txt", "elementary.2.atom")
-	write_random("elementary.3.txt", "elementary.3.atom")
-	write_random("elementary.4.txt", "elementary.4.atom")
-	write_random("elementary.5.txt", "elementary.5.atom")
-	write_random("elementary.6.txt", "elementary.6.atom")
-	write_random("elementary.txt", "elementary.atom")
-	write_random("jhs.txt", "jhs.atom")
+	write_random("elementary.1.txt", "elementary.1.xml")
+	write_random("elementary.2.txt", "elementary.2.xml")
+	write_random("elementary.3.txt", "elementary.3.xml")
+	write_random("elementary.4.txt", "elementary.4.xml")
+	write_random("elementary.5.txt", "elementary.5.xml")
+	write_random("elementary.6.txt", "elementary.6.xml")
+	write_random("elementary.txt", "elementary.xml")
+	write_random("jhs.txt", "jhs.xml")
 end
 
 write_many_random
