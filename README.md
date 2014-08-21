@@ -10,10 +10,15 @@ This project is a script that takes a list of kanji as input and outputs a file 
 
 Kanji are Japanese characters.  There are several thousand in existence.  If you want to learn them, you should study in many ways.  A daily script such as this is a tool to buttress whatever other study methods you already have.  If you're already doing reading practice, it's sometimes helpful to focus on a single character and see some common words that make use of the the character.
 
+Starting Out
+============
+
+To begin with, look in the `web` directory.  The files there are ready to go.  All you need to do is add the relevant cron job or cron jobs to make use of them.  Each time you call the scripts, you produce a new random kanji.  For a kanji of the day, then, just make a cronjob that runs daily.  If you're happy with how that works, you don't have to look at the rest of the project at all.
+
 Getting Dependencies
 ====================
 
-This code is under the MIT License.  However, to make the script work, some more restrictive dependencies are needed.  Download the following files and put them in the same directory as this script.
+This code is under the MIT License.  However, to make the generator script work, some more restrictive dependencies are needed.  Download the following files and put them in the same directory as this script.
 
 The kanji dictionary and Japanese word dictionary are Creative Commons Attribution-Share Alike 3.0 licensed and can be downloaded here.
 
@@ -30,10 +35,7 @@ Or do this from the command line.
 Details
 =======
 
-There are two main steps.
-
-1. Take a list of target kanji and make a details file.  This is done by placing the target kanji all on one line with no spaces in a file called `targetkanji.txt` and then running the `generator.rb` script.
-2. Use the output of that file, which is temporarily called `details.txt` until you rename it by choosing one line at random and based on that line producing a kanji of the day code block.
+Once you have the above dependencies, use the script `generator.rb` to produce a details file.  The `generator.rb` script looks for target kanji in the file `targetkanji.txt` and produces a tab-separated details file called `details.txt`.
 
 The format of `details.txt` is a tab-delimited UTF-8 text file.  The tabs are, in order, as follows.
 
@@ -46,6 +48,8 @@ The format of `details.txt` is a tab-delimited UTF-8 text file.  The tabs are, i
 * Examples
 
 The examples can get quite long, so you probably wouldn't want to look at the file itself very much, but if you're running into unexpected behavior, it's work a look.  The left-most part of each line should be quite legible.
+
+This project comes with some lists of kanji in the `lists` directory.  You can copy and paste those onto `targetkanji.txt` as desired.  Or, if you'd like to use a different set of kanji, modify `targetkanji.txt` by hand.  For convenience, the script `generator.sh` generates details files for all of the elementary and junior high school kanji lists and places the resultant details files in `web`.
 
 Issues
 ======
