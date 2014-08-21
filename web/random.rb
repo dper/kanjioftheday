@@ -136,6 +136,8 @@ class Styler
 				item.title = "Kanji of the Day: " + get_literal
 				item.updated = Time.now.to_s
 				item.description = @core
+				item.guid.content = URL + @output + '#' + DateTime.now.rfc3339
+				item.guid.isPermaLink = false
 			end
 		end
 
