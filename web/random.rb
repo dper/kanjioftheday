@@ -49,7 +49,7 @@ end
 
 class Styler
 	attr_accessor :html	# Styled HTML output.
-	attr_accessor :atom	# Styled Atom output.
+	attr_accessor :rss	# Styled Atom output.
 	attr_accessor :output	# The output file.
 
 	# Styles the given line.
@@ -57,7 +57,7 @@ class Styler
 		@line = line
 		@output = output
 		style_core
-		make_atom
+		make_rss
 	end
 
 	# Returns the literal.
@@ -122,25 +122,28 @@ class Styler
 	end
 
 	# Makes the Atom text.
-	def make_atom
-		rss = RSS::Maker.make("atom") do |maker|
+	def make_rss
+		rss = RSS::Maker.make("2.0") do |maker|
 			maker.channel.author = "Douglas Paul Perkins"
 			maker.channel.updated = Time.now.to_s
 			maker.channel.about = "https://github.com/dper/kanjioftheday/"
 			maker.channel.title = "Kanji of the Day"
+			maker.channel.link = URL
+			maker.channel.description = "Kanji of the Day"
 
 			maker.items.new_item do |item|
 				item.link = URL + '/' + @output
 				item.title = "Kanji of the Day: " + get_literal
 				item.updated = Time.now.to_s
+				item.description = @core
 			end
 		end
 
 		@rss = rss
 	end
 
-	# Writes the Atom text to a file.
-	def write_atom
+	# Writes the RSS text to a file.
+	def write_rss
 		puts 'Writing to ' + @output + ' ...'
 		open(@output, 'w') do |file|
 			file.puts @rss
@@ -152,7 +155,7 @@ end
 def write_random (input, output)
 	$details = Details.new input
 	$styler = Styler.new($details.line, output)
-	$styler.write_atom
+	$styler.write_rss
 end
 
 # Writes the random kanji Atom feeds for a bunch of files.

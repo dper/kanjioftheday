@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"
-  xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <author>
-    <name>Douglas Paul Perkins</name>
-  </author>
-  <id>https://github.com/dper/kanjioftheday/</id>
-  <title>Kanji of the Day</title>
-  <updated>2014-08-21T23:44:46+09:00</updated>
-  <entry>
-    <id>https://dperkins.org/kanjioftheday//elementary.3.xml</id>
-    <link href="https://dperkins.org/kanjioftheday//elementary.3.xml"/>
-    <title>Kanji of the Day: 員</title>
-    <updated>2014-08-21T23:44:46+09:00</updated>
-    <dc:date>2014-08-21T23:44:46+09:00</dc:date>
-  </entry>
-  <dc:date>2014-08-21T23:44:46+09:00</dc:date>
-</feed>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>Kanji of the Day</title>
+    <link>https://dperkins.org/kanjioftheday/</link>
+    <description>Kanji of the Day</description>
+    <pubDate>Thu, 21 Aug 2014 23:59:11 +0900</pubDate>
+    <item>
+      <title>Kanji of the Day: 着</title>
+      <link>https://dperkins.org/kanjioftheday//elementary.3.xml</link>
+      <description>&lt;p style=&quot;text-align: center; border: 1px solid black;&quot;&gt;
+&lt;p style=&quot;font-size: 300%; font-weight: bold; color: blue;&quot;&gt;着&lt;/p&gt;
+&lt;p style=&quot;color: #ff66ff;&quot;&gt;✍12&lt;/p&gt;
+&lt;p style=&quot;color: gray;&quot;&gt;小3&lt;/p&gt;
+&lt;p style=&quot;color: green;&quot;&gt;don, arrive, wear, counter for suits of clothing&lt;/p&gt;
+&lt;p style=&quot;color: orange;&quot;&gt;チャク　ジャク&lt;/p&gt;
+&lt;p style=&quot;color: red;&quot;&gt;き.る　-ぎ　き.せる　-き.せ　つ.く　つ.ける&lt;/p&gt;
+&lt;p&gt;決着 &amp;#160; (けっちゃく) &amp;#160; &amp;mdash; &amp;#160; conclusion&lt;br /&gt;到着 &amp;#160; (とうちゃく) &amp;#160; &amp;mdash; &amp;#160; arrival&lt;br /&gt;定着 &amp;#160; (ていちゃく) &amp;#160; &amp;mdash; &amp;#160; taking hold&lt;br /&gt;着る &amp;#160; (きる) &amp;#160; &amp;mdash; &amp;#160; to wear (in modern Japanese, from the shoulders down)&lt;br /&gt;落ち着く &amp;#160; (おちつく) &amp;#160; &amp;mdash; &amp;#160; to calm down&lt;br /&gt;着手 &amp;#160; (ちゃくしゅ) &amp;#160; &amp;mdash; &amp;#160; to start work (on)&lt;br /&gt;着く &amp;#160; (つく) &amp;#160; &amp;mdash; &amp;#160; to arrive at&lt;br /&gt;着実 &amp;#160; (ちゃくじつ) &amp;#160; &amp;mdash; &amp;#160; steady&lt;br /&gt;着陸 &amp;#160; (ちゃくりく) &amp;#160; &amp;mdash; &amp;#160; landing&lt;br /&gt;着工 &amp;#160; (ちゃっこう) &amp;#160; &amp;mdash; &amp;#160; start of (construction) work&lt;br /&gt;癒着 &amp;#160; (ゆちゃく) &amp;#160; &amp;mdash; &amp;#160; adhesion (medical)&lt;br /&gt;着物 &amp;#160; (きもの) &amp;#160; &amp;mdash; &amp;#160; clothing&lt;br /&gt;密着 &amp;#160; (みっちゃく) &amp;#160; &amp;mdash; &amp;#160; glued to&lt;br /&gt;着用 &amp;#160; (ちゃくよう) &amp;#160; &amp;mdash; &amp;#160; wearing (e.g., uniform, seat belt)&lt;br /&gt;下着 &amp;#160; (したぎ) &amp;#160; &amp;mdash; &amp;#160; underwear&lt;br /&gt;着ける &amp;#160; (つける) &amp;#160; &amp;mdash; &amp;#160; to attach&lt;br /&gt;発着 &amp;#160; (はっちゃく) &amp;#160; &amp;mdash; &amp;#160; arrival and departure&lt;br /&gt;必着 &amp;#160; (ひっちゃく) &amp;#160; &amp;mdash; &amp;#160; must arrive&lt;br /&gt;先着 &amp;#160; (せんちゃく) &amp;#160; &amp;mdash; &amp;#160; first arrival&lt;br /&gt;着目 &amp;#160; (ちゃくもく) &amp;#160; &amp;mdash; &amp;#160; attention
+&lt;/p&gt;
+&lt;p style=&quot;font-size: smaller; color: gray;&quot;&gt;This page was generated using &lt;a href=&quot;https://github.com/dper/kanjioftheday/&quot;&gt;kanjioftheday&lt;/a&gt;, written by Douglas Paul Perkins.  Kanji lists came from the Ministry of Education.  Example words are derived from a &lt;a href=&quot;http://www.bcit-broadcast.com/monash/wordfreq.README&quot;&gt;word frequency list&lt;/a&gt; by Alexandre Girardi.  Dictionary information is taken from &lt;a href=&quot;http://www.csse.monash.edu.au/~jwb/kanjidic2/&quot;&gt;KANJIDIC2&lt;/a&gt; and &lt;a href=&quot;http://www.edrdg.org/jmdict/edict.html&quot;&gt;EDICT&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+</description>
+      <pubDate>Thu, 21 Aug 2014 23:59:11 +0900</pubDate>
+      <dc:date>2014-08-21T23:59:11+09:00</dc:date>
+    </item>
+    <dc:date>2014-08-21T23:59:11+09:00</dc:date>
+  </channel>
+</rss>

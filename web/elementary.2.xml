@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"
-  xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <author>
-    <name>Douglas Paul Perkins</name>
-  </author>
-  <id>https://github.com/dper/kanjioftheday/</id>
-  <title>Kanji of the Day</title>
-  <updated>2014-08-21T23:44:46+09:00</updated>
-  <entry>
-    <id>https://dperkins.org/kanjioftheday//elementary.2.xml</id>
-    <link href="https://dperkins.org/kanjioftheday//elementary.2.xml"/>
-    <title>Kanji of the Day: 米</title>
-    <updated>2014-08-21T23:44:46+09:00</updated>
-    <dc:date>2014-08-21T23:44:46+09:00</dc:date>
-  </entry>
-  <dc:date>2014-08-21T23:44:46+09:00</dc:date>
-</feed>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>Kanji of the Day</title>
+    <link>https://dperkins.org/kanjioftheday/</link>
+    <description>Kanji of the Day</description>
+    <pubDate>Thu, 21 Aug 2014 23:59:11 +0900</pubDate>
+    <item>
+      <title>Kanji of the Day: 心</title>
+      <link>https://dperkins.org/kanjioftheday//elementary.2.xml</link>
+      <description>&lt;p style=&quot;text-align: center; border: 1px solid black;&quot;&gt;
+&lt;p style=&quot;font-size: 300%; font-weight: bold; color: blue;&quot;&gt;心&lt;/p&gt;
+&lt;p style=&quot;color: #ff66ff;&quot;&gt;✍4&lt;/p&gt;
+&lt;p style=&quot;color: gray;&quot;&gt;小2&lt;/p&gt;
+&lt;p style=&quot;color: green;&quot;&gt;heart, mind, spirit, heart radical (no. 61)&lt;/p&gt;
+&lt;p style=&quot;color: orange;&quot;&gt;シン&lt;/p&gt;
+&lt;p style=&quot;color: red;&quot;&gt;こころ　-ごころ&lt;/p&gt;
+&lt;p&gt;中心 &amp;#160; (ちゅうしん) &amp;#160; &amp;mdash; &amp;#160; center&lt;br /&gt;関心 &amp;#160; (かんしん) &amp;#160; &amp;mdash; &amp;#160; concern&lt;br /&gt;心配 &amp;#160; (しんぱい) &amp;#160; &amp;mdash; &amp;#160; worry&lt;br /&gt;心不全 &amp;#160; (しんふぜん) &amp;#160; &amp;mdash; &amp;#160; heart failure&lt;br /&gt;心臓 &amp;#160; (しんぞう) &amp;#160; &amp;mdash; &amp;#160; heart&lt;br /&gt;心理 &amp;#160; (しんり) &amp;#160; &amp;mdash; &amp;#160; state of mind&lt;br /&gt;都心 &amp;#160; (としん) &amp;#160; &amp;mdash; &amp;#160; city center (center) (esp. capital city)&lt;br /&gt;安心 &amp;#160; (あんしん) &amp;#160; &amp;mdash; &amp;#160; relief&lt;br /&gt;熱心 &amp;#160; (ねっしん) &amp;#160; &amp;mdash; &amp;#160; zeal&lt;br /&gt;心境 &amp;#160; (しんきょう) &amp;#160; &amp;mdash; &amp;#160; mental state&lt;br /&gt;肝心 &amp;#160; (かんじん) &amp;#160; &amp;mdash; &amp;#160; essential&lt;br /&gt;心から &amp;#160; (こころから) &amp;#160; &amp;mdash; &amp;#160; from the bottom of one's heart&lt;br /&gt;感心 &amp;#160; (かんしん) &amp;#160; &amp;mdash; &amp;#160; admiration&lt;br /&gt;心身 &amp;#160; (しんしん) &amp;#160; &amp;mdash; &amp;#160; mind and body&lt;br /&gt;心筋 &amp;#160; (しんきん) &amp;#160; &amp;mdash; &amp;#160; heart muscle&lt;br /&gt;求心力 &amp;#160; (きゅうしんりょく) &amp;#160; &amp;mdash; &amp;#160; centripetal force&lt;br /&gt;心情 &amp;#160; (しんじょう) &amp;#160; &amp;mdash; &amp;#160; sentiment&lt;br /&gt;無関心 &amp;#160; (むかんしん) &amp;#160; &amp;mdash; &amp;#160; apathetic&lt;br /&gt;核心 &amp;#160; (かくしん) &amp;#160; &amp;mdash; &amp;#160; core&lt;br /&gt;心掛ける &amp;#160; (こころがける) &amp;#160; &amp;mdash; &amp;#160; to keep in mind
+&lt;/p&gt;
+&lt;p style=&quot;font-size: smaller; color: gray;&quot;&gt;This page was generated using &lt;a href=&quot;https://github.com/dper/kanjioftheday/&quot;&gt;kanjioftheday&lt;/a&gt;, written by Douglas Paul Perkins.  Kanji lists came from the Ministry of Education.  Example words are derived from a &lt;a href=&quot;http://www.bcit-broadcast.com/monash/wordfreq.README&quot;&gt;word frequency list&lt;/a&gt; by Alexandre Girardi.  Dictionary information is taken from &lt;a href=&quot;http://www.csse.monash.edu.au/~jwb/kanjidic2/&quot;&gt;KANJIDIC2&lt;/a&gt; and &lt;a href=&quot;http://www.edrdg.org/jmdict/edict.html&quot;&gt;EDICT&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+</description>
+      <pubDate>Thu, 21 Aug 2014 23:59:11 +0900</pubDate>
+      <dc:date>2014-08-21T23:59:11+09:00</dc:date>
+    </item>
+    <dc:date>2014-08-21T23:59:11+09:00</dc:date>
+  </channel>
+</rss>

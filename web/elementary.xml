@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"
-  xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <author>
-    <name>Douglas Paul Perkins</name>
-  </author>
-  <id>https://github.com/dper/kanjioftheday/</id>
-  <title>Kanji of the Day</title>
-  <updated>2014-08-21T23:44:46+09:00</updated>
-  <entry>
-    <id>https://dperkins.org/kanjioftheday//elementary.xml</id>
-    <link href="https://dperkins.org/kanjioftheday//elementary.xml"/>
-    <title>Kanji of the Day: 歴</title>
-    <updated>2014-08-21T23:44:46+09:00</updated>
-    <dc:date>2014-08-21T23:44:46+09:00</dc:date>
-  </entry>
-  <dc:date>2014-08-21T23:44:46+09:00</dc:date>
-</feed>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>Kanji of the Day</title>
+    <link>https://dperkins.org/kanjioftheday/</link>
+    <description>Kanji of the Day</description>
+    <pubDate>Thu, 21 Aug 2014 23:59:11 +0900</pubDate>
+    <item>
+      <title>Kanji of the Day: 上</title>
+      <link>https://dperkins.org/kanjioftheday//elementary.xml</link>
+      <description>&lt;p style=&quot;text-align: center; border: 1px solid black;&quot;&gt;
+&lt;p style=&quot;font-size: 300%; font-weight: bold; color: blue;&quot;&gt;上&lt;/p&gt;
+&lt;p style=&quot;color: #ff66ff;&quot;&gt;✍3&lt;/p&gt;
+&lt;p style=&quot;color: gray;&quot;&gt;小1&lt;/p&gt;
+&lt;p style=&quot;color: green;&quot;&gt;above, up&lt;/p&gt;
+&lt;p style=&quot;color: orange;&quot;&gt;ジョウ　ショウ　シャン&lt;/p&gt;
+&lt;p style=&quot;color: red;&quot;&gt;うえ　-うえ　うわ-　かみ　あ.げる　-あ.げる　あ.がる　-あ.がる　あ.がり　-あ.がり　のぼ.る　のぼ.り　のぼ.せる　のぼ.す　よ.す&lt;/p&gt;
+&lt;p&gt;以上 &amp;#160; (いじょう) &amp;#160; &amp;mdash; &amp;#160; not less than&lt;br /&gt;上がる &amp;#160; (あがる) &amp;#160; &amp;mdash; &amp;#160; to rise&lt;br /&gt;上回る &amp;#160; (うわまわる) &amp;#160; &amp;mdash; &amp;#160; to exceed (esp. figures: profits, unemployment rate, etc.)&lt;br /&gt;上げる &amp;#160; (あげる) &amp;#160; &amp;mdash; &amp;#160; to raise&lt;br /&gt;上昇 &amp;#160; (じょうしょう) &amp;#160; &amp;mdash; &amp;#160; rising&lt;br /&gt;事実上 &amp;#160; (じじつじょう) &amp;#160; &amp;mdash; &amp;#160; matter of fact&lt;br /&gt;上る &amp;#160; (あがる) &amp;#160; &amp;mdash; &amp;#160; to rise&lt;br /&gt;史上 &amp;#160; (しじょう) &amp;#160; &amp;mdash; &amp;#160; historical&lt;br /&gt;途上国 &amp;#160; (とじょうこく) &amp;#160; &amp;mdash; &amp;#160; developing country&lt;br /&gt;取り上げる &amp;#160; (とりあげる) &amp;#160; &amp;mdash; &amp;#160; to pick up&lt;br /&gt;地上 &amp;#160; (ちじょう) &amp;#160; &amp;mdash; &amp;#160; above ground&lt;br /&gt;値上げ &amp;#160; (ねあげ) &amp;#160; &amp;mdash; &amp;#160; price hike&lt;br /&gt;向上 &amp;#160; (こうじょう) &amp;#160; &amp;mdash; &amp;#160; elevation&lt;br /&gt;浮上 &amp;#160; (ふじょう) &amp;#160; &amp;mdash; &amp;#160; surfacing&lt;br /&gt;上位 &amp;#160; (じょうい) &amp;#160; &amp;mdash; &amp;#160; superior (in rank)&lt;br /&gt;売り上げ &amp;#160; (うりあげ) &amp;#160; &amp;mdash; &amp;#160; amount sold&lt;br /&gt;引き上げ &amp;#160; (ひきあげ) &amp;#160; &amp;mdash; &amp;#160; pulling up&lt;br /&gt;上院 &amp;#160; (じょういん) &amp;#160; &amp;mdash; &amp;#160; Upper House&lt;br /&gt;上演 &amp;#160; (じょうえん) &amp;#160; &amp;mdash; &amp;#160; performance (e.g., music, theater, opera)&lt;br /&gt;上場 &amp;#160; (じょうじょう) &amp;#160; &amp;mdash; &amp;#160; listing (on the stock exchange, etc.)
+&lt;/p&gt;
+&lt;p style=&quot;font-size: smaller; color: gray;&quot;&gt;This page was generated using &lt;a href=&quot;https://github.com/dper/kanjioftheday/&quot;&gt;kanjioftheday&lt;/a&gt;, written by Douglas Paul Perkins.  Kanji lists came from the Ministry of Education.  Example words are derived from a &lt;a href=&quot;http://www.bcit-broadcast.com/monash/wordfreq.README&quot;&gt;word frequency list&lt;/a&gt; by Alexandre Girardi.  Dictionary information is taken from &lt;a href=&quot;http://www.csse.monash.edu.au/~jwb/kanjidic2/&quot;&gt;KANJIDIC2&lt;/a&gt; and &lt;a href=&quot;http://www.edrdg.org/jmdict/edict.html&quot;&gt;EDICT&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+</description>
+      <pubDate>Thu, 21 Aug 2014 23:59:11 +0900</pubDate>
+      <dc:date>2014-08-21T23:59:11+09:00</dc:date>
+    </item>
+    <dc:date>2014-08-21T23:59:11+09:00</dc:date>
+  </channel>
+</rss>

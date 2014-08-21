@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"
-  xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <author>
-    <name>Douglas Paul Perkins</name>
-  </author>
-  <id>https://github.com/dper/kanjioftheday/</id>
-  <title>Kanji of the Day</title>
-  <updated>2014-08-21T23:44:46+09:00</updated>
-  <entry>
-    <id>https://dperkins.org/kanjioftheday//elementary.4.xml</id>
-    <link href="https://dperkins.org/kanjioftheday//elementary.4.xml"/>
-    <title>Kanji of the Day: 刷</title>
-    <updated>2014-08-21T23:44:46+09:00</updated>
-    <dc:date>2014-08-21T23:44:46+09:00</dc:date>
-  </entry>
-  <dc:date>2014-08-21T23:44:46+09:00</dc:date>
-</feed>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>Kanji of the Day</title>
+    <link>https://dperkins.org/kanjioftheday/</link>
+    <description>Kanji of the Day</description>
+    <pubDate>Thu, 21 Aug 2014 23:59:11 +0900</pubDate>
+    <item>
+      <title>Kanji of the Day: 卒</title>
+      <link>https://dperkins.org/kanjioftheday//elementary.4.xml</link>
+      <description>&lt;p style=&quot;text-align: center; border: 1px solid black;&quot;&gt;
+&lt;p style=&quot;font-size: 300%; font-weight: bold; color: blue;&quot;&gt;卒&lt;/p&gt;
+&lt;p style=&quot;color: #ff66ff;&quot;&gt;✍8&lt;/p&gt;
+&lt;p style=&quot;color: gray;&quot;&gt;小4&lt;/p&gt;
+&lt;p style=&quot;color: green;&quot;&gt;graduate, soldier, private, die&lt;/p&gt;
+&lt;p style=&quot;color: orange;&quot;&gt;ソツ　シュツ&lt;/p&gt;
+&lt;p style=&quot;color: red;&quot;&gt;そっ.する　お.える　お.わる　ついに　にわか&lt;/p&gt;
+&lt;p&gt;卒業 &amp;#160; (そつぎょう) &amp;#160; &amp;mdash; &amp;#160; graduation&lt;br /&gt;大卒 &amp;#160; (だいそつ) &amp;#160; &amp;mdash; &amp;#160; university graduate&lt;br /&gt;高卒 &amp;#160; (こうそつ) &amp;#160; &amp;mdash; &amp;#160; high school graduate&lt;br /&gt;新卒 &amp;#160; (しんそつ) &amp;#160; &amp;mdash; &amp;#160; new (recent) graduate&lt;br /&gt;学卒 &amp;#160; (がくそつ) &amp;#160; &amp;mdash; &amp;#160; college graduate&lt;br /&gt;脳卒中 &amp;#160; (のうそっちゅう) &amp;#160; &amp;mdash; &amp;#160; stroke&lt;br /&gt;中卒 &amp;#160; (ちゅうそつ) &amp;#160; &amp;mdash; &amp;#160; junior high school graduate&lt;br /&gt;卒倒 &amp;#160; (そっとう) &amp;#160; &amp;mdash; &amp;#160; fainting&lt;br /&gt;兵卒 &amp;#160; (へいそつ) &amp;#160; &amp;mdash; &amp;#160; private (soldier)&lt;br /&gt;士卒 &amp;#160; (しそつ) &amp;#160; &amp;mdash; &amp;#160; officers and soldiers&lt;br /&gt;卒塔婆 &amp;#160; (そとうば) &amp;#160; &amp;mdash; &amp;#160; stupa&lt;br /&gt;卒中 &amp;#160; (そっちゅう) &amp;#160; &amp;mdash; &amp;#160; cerebral stroke&lt;br /&gt;何卒 &amp;#160; (なにそつ) &amp;#160; &amp;mdash; &amp;#160; please&lt;br /&gt;卒爾 &amp;#160; (そつじ) &amp;#160; &amp;mdash; &amp;#160; abrupt&lt;br /&gt;卒去 &amp;#160; (しゅっきょ) &amp;#160; &amp;mdash; &amp;#160; death (of a noble, etc.)
+&lt;/p&gt;
+&lt;p style=&quot;font-size: smaller; color: gray;&quot;&gt;This page was generated using &lt;a href=&quot;https://github.com/dper/kanjioftheday/&quot;&gt;kanjioftheday&lt;/a&gt;, written by Douglas Paul Perkins.  Kanji lists came from the Ministry of Education.  Example words are derived from a &lt;a href=&quot;http://www.bcit-broadcast.com/monash/wordfreq.README&quot;&gt;word frequency list&lt;/a&gt; by Alexandre Girardi.  Dictionary information is taken from &lt;a href=&quot;http://www.csse.monash.edu.au/~jwb/kanjidic2/&quot;&gt;KANJIDIC2&lt;/a&gt; and &lt;a href=&quot;http://www.edrdg.org/jmdict/edict.html&quot;&gt;EDICT&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+</description>
+      <pubDate>Thu, 21 Aug 2014 23:59:11 +0900</pubDate>
+      <dc:date>2014-08-21T23:59:11+09:00</dc:date>
+    </item>
+    <dc:date>2014-08-21T23:59:11+09:00</dc:date>
+  </channel>
+</rss>
