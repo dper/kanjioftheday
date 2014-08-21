@@ -18,6 +18,7 @@
 #   Douglas P Perkins - https://dperkins.org - https://microca.st/dper
 
 require 'date'
+require 'rss'
 
 Script_dir = File.dirname(__FILE__)
 URL = "https://dperkins.org/kanjioftheday/"
@@ -56,7 +57,7 @@ class Styler
 		@line = line
 		@output = output
 		style_core
-		style_atom
+		make_atom
 	end
 
 	# Returns the literal.
@@ -100,14 +101,14 @@ class Styler
 		return attribution
 	end
 
-	# Returns the current date and time as a string.
-	def time
-		return Time.now.utc.strftime("%Y-%M-%dT%H:%M:%SZ")
+	# Returns the current date and time as a string in RFC3339 format.
+	def get_date
+		return DateTime.now.rfc3339
 	end
 
 	# Makes a styled HTML block for embedding.
 	def style_core
-		core = "<div style=\"text-align: center; border: 1px solid black;\">\n"
+		core = "<p style=\"text-align: center; border: 1px solid black;\">\n"
 		core += "<p style=\"font-size: 300%; font-weight: bold; color: blue;\">" + get_literal + "</p>\n"
 		core += "<p style=\"color: #ff66ff;\">" + get_strokes + "</p>\n"
 		core += "<p style=\"color: gray;\">" + get_grade + "</p>\n"
@@ -116,43 +117,33 @@ class Styler
 		core += "<p style=\"color: red;\">" + get_kunyomis + "</p>\n"
 		core += "<p>" + get_examples + "</p>\n"
 		core += "<p style=\"font-size: smaller; color: gray;\">" + get_attribution + "</p>\n"
-		core += "</div>\n"
+		core += "</p>\n"
 		@core = core	
 	end
-	
-	def style_atom
-		updated = time
-		atom_id = URL + '/' + @output
-		project = "https://github.com/dper/kanjioftheday/"
-		entry_id = atom_id + "#" + updated	
 
-		atom = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n"
-		atom += "<feed xmlns=\"http://www.w3.org/2005/Atom\">\n"
-		atom += "<title>Kanji of the Day</title>\n"
-		atom += "<link rel=\"related\" href=\"" + project + "\" />\n"
-		atom += "<link rel=\"self\" href=\"" + atom_id + "\" />\n"
-		atom += "<updated>" + updated + "</updated>\n"
-		atom += "<author>\n"
-		atom += "<name>" + Author + "</name>\n"
-		atom += "</author>\n"
-		atom += "<id>" + atom_id + "</id>\n"
+	# Makes the Atom text.
+	def make_atom
+		rss = RSS::Maker.make("atom") do |maker|
+			maker.channel.author = "Douglas Paul Perkins"
+			maker.channel.updated = Time.now.to_s
+			maker.channel.about = "https://github.com/dper/kanjioftheday/"
+			maker.channel.title = "Kanji of the Day"
 
-		atom += "\n"		
-	
-		atom += "<entry>\n"
-		atom += "<title>Kanji of the Day: " + get_literal + "</title>\n"
-		atom += "<id>" + entry_id + "</id>\n"
-		atom += "<updated>" + updated + "</updated>\n"
-		atom += @core
-		atom += "</entry>\n"
-		atom += "</feed>\n"
-		@atom = atom
+			maker.items.new_item do |item|
+				item.link = URL + '/' + @output
+				item.title = "Kanji of the Day: " + get_literal
+				item.updated = Time.now.to_s
+			end
+		end
+
+		@rss = rss
 	end
 
+	# Writes the Atom text to a file.
 	def write_atom
 		puts 'Writing to ' + @output + ' ...'
 		open(@output, 'w') do |file|
-			file.puts @atom
+			file.puts @rss
 		end
 	end
 end

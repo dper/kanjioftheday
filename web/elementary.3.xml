@@ -1,28 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-<title>Kanji of the Day</title>
-<link rel="related" href="https://github.com/dper/kanjioftheday/" />
-<link rel="self" href="https://dperkins.org/kanjioftheday//elementary.3.xml" />
-<updated>2014-25-21T14:25:13Z</updated>
-<author>
-<name>Douglas Paul Perkins</name>
-</author>
-<id>https://dperkins.org/kanjioftheday//elementary.3.xml</id>
-
-<entry>
-<title>Kanji of the Day: 守</title>
-<id>https://dperkins.org/kanjioftheday//elementary.3.xml#2014-25-21T14:25:13Z</id>
-<updated>2014-25-21T14:25:13Z</updated>
-<div style="text-align: center; border: 1px solid black;">
-<p style="font-size: 300%; font-weight: bold; color: blue;">守</p>
-<p style="color: #ff66ff;">✍6</p>
-<p style="color: gray;">小3</p>
-<p style="color: green;">guard, protect, defend, obey</p>
-<p style="color: orange;">シュ　ス</p>
-<p style="color: red;">まも.る　まも.り　もり　-もり　かみ</p>
-<p>守る &#160; (まもる) &#160; &mdash; &#160; to protect<br />保守 &#160; (ほしゅ) &#160; &mdash; &#160; maintenance<br />見守る &#160; (みまもる) &#160; &mdash; &#160; to watch over<br />守備 &#160; (しゅび) &#160; &mdash; &#160; defense<br />守り &#160; (まもり) &#160; &mdash; &#160; protection<br />順守 &#160; (じゅんしゅ) &#160; &mdash; &#160; compliance<br />保守党 &#160; (ほしゅとう) &#160; &mdash; &#160; Conservative Party (UK, Canada, Japan)<br />攻守 &#160; (こうしゅ) &#160; &mdash; &#160; offense and defense<br />留守 &#160; (るす) &#160; &mdash; &#160; absence<br />留守番 &#160; (るすばん) &#160; &mdash; &#160; care-taking<br />保守的 &#160; (ほしゅてき) &#160; &mdash; &#160; conservative<br />死守 &#160; (ししゅ) &#160; &mdash; &#160; defending to the last<br />専守防衛 &#160; (せんしゅぼうえい) &#160; &mdash; &#160; nonaggressive defense (policy) (defense)<br />守り抜く &#160; (まもりぬく) &#160; &mdash; &#160; to hold fast<br />好守 &#160; (こうしゅ) &#160; &mdash; &#160; good fielding (baseball)<br />厳守 &#160; (げんしゅ) &#160; &mdash; &#160; strict observance<br />守勢 &#160; (しゅせい) &#160; &mdash; &#160; defensive<br />子守歌 &#160; (こもりうた) &#160; &mdash; &#160; lullaby<br />お守り &#160; (おまもり) &#160; &mdash; &#160; charm<br />堅守 &#160; (けんしゅ) &#160; &mdash; &#160; strong defense
-</p>
-<p style="font-size: smaller; color: gray;">This page was generated using <a href="https://github.com/dper/kanjioftheday/">kanjioftheday</a>, written by Douglas Paul Perkins.  Kanji lists came from the Ministry of Education.  Example words are derived from a <a href="http://www.bcit-broadcast.com/monash/wordfreq.README">word frequency list</a> by Alexandre Girardi.  Dictionary information is taken from <a href="http://www.csse.monash.edu.au/~jwb/kanjidic2/">KANJIDIC2</a> and <a href="http://www.edrdg.org/jmdict/edict.html">EDICT</a>.</p>
-</div>
-</entry>
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Douglas Paul Perkins</name>
+  </author>
+  <id>https://github.com/dper/kanjioftheday/</id>
+  <title>Kanji of the Day</title>
+  <updated>2014-08-21T23:44:46+09:00</updated>
+  <entry>
+    <id>https://dperkins.org/kanjioftheday//elementary.3.xml</id>
+    <link href="https://dperkins.org/kanjioftheday//elementary.3.xml"/>
+    <title>Kanji of the Day: 員</title>
+    <updated>2014-08-21T23:44:46+09:00</updated>
+    <dc:date>2014-08-21T23:44:46+09:00</dc:date>
+  </entry>
+  <dc:date>2014-08-21T23:44:46+09:00</dc:date>
 </feed>
