@@ -21,6 +21,8 @@ require 'nokogiri'
 
 Script_dir = File.dirname(__FILE__)
 Details_file = Script_dir + '/details.txt'
+Link = "https://dperkins.org/kanjioftheday/"
+Author = "Douglas Paul Perkins"
 
 # The entire details file.
 class Details
@@ -45,12 +47,14 @@ class Details
 end
 
 class Styler
-	attr_accessor :output	# The styled output.
+	attr_accessor :html	# Styled HTML output.
+	attr_accessor :atom	# Styled Atom output.
 
 	# Styles the given line.
 	def initialize (line)
 		@line = line
-		style_line
+		style_core
+		style_html
 	end
 
 	# Returns the literal.
@@ -87,35 +91,62 @@ class Styler
 	def get_examples
 		return @line.split("\t")[6]
 	end
+
+	# Returns the current date and time as a string.
+	def time
+		return Time.now.utc.strftime("%Y-%M-%dT%H:%M:%SZ")
+	end
+
+	# Makes a styled HTML block for embedding.
+	def style_core
+		core += "<div style=\"text-align: center; border: 1px solid black;\">\n"
+		core += "<p style=\"font-size: 300%; font-weight: bold; color: blue;\">" + get_literal + "</p>\n"
+		core += "<p style=\"color: #ff66ff;\">" + get_strokes + "</p>\n"
+		core += "<p style=\"color: gray;\">" + get_grade + "</p>\n"
+		core += "<p style=\"color: green;\">" + get_meanings + "</p>\n"
+		core += "<p style=\"color: orange;\">" + get_onyomis + "</p>\n"
+		core += "<p style=\"color: red;\">" + get_kunyomis + "</p>\n"
+		core += "<p>" + get_examples + "</p>\n"
+		core += "</div>\n"
+		@core = core	
 		
-	# Styles the line.
-	def style_line
-		text = "<html>\n"
-		text += "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01//EN\">\n"
-		text += "<head>\n"
-		text += "<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\" >\n"
-		text += "</head>\n"
-		text += "<body>\n"
-
-		text += "<div style=\"text-align: center; border: 1px solid black;\">\n"
-
-		text += "<p style=\"font-size: 300%; font-weight: bold; color: blue;\">" + get_literal + "</p>\n"
-		text += "<p style=\"color: #ff66ff;\">" + get_strokes + "</p>\n"
-		text += "<p style=\"color: gray;\">" + get_grade + "</p>\n"
-		text += "<p style=\"color: green;\">" + get_meanings + "</p>\n"
-		text += "<p style=\"color: orange;\">" + get_onyomis + "</p>\n"
-		text += "<p style=\"color: red;\">" + get_kunyomis + "</p>\n"
-		text += "<p>" + get_examples + "</p>\n"
-
-		text += "</div>\n"
-
-		text += "</body>\n"
-		text += "</html>\n"
-
-		@output = text
+	# Makes the HTML.
+	def style_html
+		html = "<html>\n"
+		html += "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01//EN\">\n"
+		html += "<head>\n"
+		html += "<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\" >\n"
+		html += "</head>\n"
+		html += "<body>\n"
+		html += @core
+		html += "</body>\n"
+		html += "</html>\n"
+		@html = html
 
 		puts @output
 	end
+	
+	def style_atom
+		atom = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n"
+		atom += "<feed xmlns=\"http://www.w3.org/2005/Atom\">\n"
+		atom += "<title>Kanji of the Day</title>\n"
+		atom += "<link href=\">" + Link + "\" />\n"
+		atom += "<updated>" + ??? + "</updated>\n"
+		atom += "<author>\n"
+		atom += "<name>" + Author + "</name>\n"
+		atom += "</author>\n"
+		#TODO ID
+
+		atom += "\n"		
+		
+		atom += "<entry>\n"
+		atom += "<title>Kanji of the Day: " + get_literal + "</title>\n"
+		#TODO ID
+		#TODO Updated
+		atom += @core
+		atom += "</entry>\n"
+		atom += "</feed>\n"
+		@atom = atom
 end
 
 def write_random
