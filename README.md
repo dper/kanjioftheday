@@ -15,7 +15,13 @@ Some other websites already offer kanji of the day.  I've used Yookoso (<http://
 Starting Out
 ============
 
-To begin with, look in the `web` directory.  The files there are ready to go.  All you need to do is add the relevant cron job or cron jobs to make use of them.  Each time you call the scripts, you produce a new random kanji.  For a kanji of the day, then, just make a cronjob that runs daily.  If you're happy with how that works, you don't have to look at the rest of the project at all.
+To begin with, look in the `web` directory.  The files there are ready to go.  The script `random.rb` updates each RSS feed specified in it.  Take a look at `random.rb` and modify it if you like.  Each time you call `random.rb`, you produce a new random kanji for each file specified in it.  So, to make a kanji of the day, just make a cronjob that runs the script daily.
+
+```
+@daily /usr/bin/ruby /path/to/script/random.rb
+```
+
+If you're happy with how that works, you don't have to look at the rest of the project at all.
 
 Getting Dependencies
 ====================
