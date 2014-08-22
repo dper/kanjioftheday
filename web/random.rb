@@ -170,6 +170,7 @@ def write_many_random
 	write_random("elementary.6.txt", "elementary.6.xml")
 	write_random("elementary.txt", "elementary.xml")
 	write_random("jhs.txt", "jhs.xml")
+	write_random("joyo.txt", "joyo.xml")
 end
 
 write_many_random
