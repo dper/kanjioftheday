@@ -132,7 +132,7 @@ class Styler
 			maker.channel.description = "Kanji of the Day"
 
 			maker.items.new_item do |item|
-				item.link = URL + '/' + @output
+				item.link = URL + @output
 				item.title = "Kanji of the Day: " + get_literal
 				item.updated = Time.now.to_s
 				item.description = @core
