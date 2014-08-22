@@ -12,6 +12,11 @@ Kanji are Japanese characters.  There are several thousand in existence.  If you
 
 Some other websites already offer kanji of the day.  I've used Yookoso (<http://www.yookoso.com/pages/study.php>) happily in the past.  It offers much the same kind of thing as can be found here, along with many other useful study tools.  On the other hand, you can't play around with third party websites.  You don't get to decide what the information looks like, and if you dislike the formatting, tough luck.  And if someone else's site goes down, you can't fix it.  This project is designed to give you an extra level of control.
 
+Screenshot
+==========
+
+![2014-08-22.liferea.png](/screenshots/2014-08-22.liferea.png "A screenshot using Liferea.")
+
 Starting Out
 ============
 
