@@ -103,7 +103,15 @@ class Styler
 
 	# Returns the current date and time as a string in RFC3339 format.
 	def get_date
-		return DateTime.now.rfc3339
+		if RUBY_VERSION == '1.8.7'
+			# For compatibility with Ruby 1.8.7.
+			datetime = Time.now.strftime("%Y-%m-%dT%H:%M:%S")
+			timezone = Time.now.strftime("%z")[0,3] + ':00'
+			return datetime + timezone
+		else
+			# Ruby 1.9.3 and newer can use this.
+			return DateTime.now.rfc3339
+		end
 	end
 
 	# Makes a styled HTML block for embedding.
