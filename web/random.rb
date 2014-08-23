@@ -116,7 +116,7 @@ class Styler
 
 	# Makes a styled HTML block for embedding.
 	def style_core
-		core = "<p style=\"text-align: center; border: 1px solid black;\">\n"
+		core = "<center>\n"
 		core += "<p style=\"font-size: 300%; font-weight: bold; color: blue;\">" + get_literal + "</p>\n"
 		core += "<p style=\"color: #ff66ff;\">" + get_strokes + "</p>\n"
 		core += "<p style=\"color: gray;\">" + get_grade + "</p>\n"
@@ -125,7 +125,7 @@ class Styler
 		core += "<p style=\"color: red;\">" + get_kunyomis + "</p>\n"
 		core += "<p>" + get_examples + "</p>\n"
 		core += "<p style=\"font-size: smaller; color: gray;\">" + get_attribution + "</p>\n"
-		core += "</p>\n"
+		core += "</center>\n"
 		@core = core	
 	end
 
