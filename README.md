@@ -35,7 +35,7 @@ Getting Dependencies
 
 Ruby is needed.  Versions 1.9.2 and newer should be sufficient.  Version 1.8.7 has been tested but is not recommended.  Older versions may or may not work.
 
-This code is under the MIT License.  However, to make the generator script work, some more restrictive dependencies are needed.  Download the following files and put them in the same directory as this script.
+This code is under the GPLv3 license.  However, to make the generator script work, some more restrictive dependencies are needed.  Download the following files and put them in the same directory as this script.
 
 The kanji dictionary and Japanese word dictionary are Creative Commons Attribution-Share Alike 3.0 licensed and can be downloaded here.
 
