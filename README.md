@@ -28,6 +28,12 @@ To begin with, look in the `web` directory.  The files there are ready to go.  T
 @daily /usr/bin/ruby /path/to/script/random.rb
 ```
 
+After running that for a few days to make sure it works, disable the output.
+
+```
+@daily /usr/bin/ruby /path/to/script/random.rb > /dev/null
+```
+
 If you're happy with how that works, you don't have to look at the rest of the project at all.
 
 Getting Dependencies
