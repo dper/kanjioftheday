@@ -155,7 +155,8 @@ class Styler
 	# Writes the RSS text to a file.
 	def write_rss
 		puts 'Writing to ' + @output + ' ...'
-		open(@output, 'w') do |file|
+		path = Script_dir + '/' + @output
+		open(path, 'w') do |file|
 			file.puts @rss
 		end
 	end
