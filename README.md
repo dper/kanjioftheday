@@ -84,10 +84,14 @@ Sources
 
 Most of this code is pulled from kanjiforanki (<https://github.com/dper/kanjiforanki>).  That code was designed for flash cards, which are by nature small.  The HTML here is designed for regular web use and is not as constrained in size.  That project was based on a project I did in 2011 to make paper flash cards for elementary school kanji.  <https://dperkins.org/arc/2011-03-22.kanji%20flashcards.html>
 
-The kanji lists themselves are published by the Ministry of Education (MEXT) in Japan.  Other websites copy and paste the data from official MEXT documents.
+The school-based kanji lists themselves are published by the Ministry of Education (MEXT) in Japan.  Other websites copy and paste the data from official MEXT documents.
 
 * <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/syo/koku/001.htm>.  Elementary school kanji.
 * <http://www.imabi.net/joyokanjilist.htm>.  Elementary and junior high school kanji.
+
+The JLPT kanji lists are based on those from the old official JLPT documentation.  The current version of the test has no official list, though, so we are forced to do some guesswork.
+
+* <https://dperkins.org/arc/2014-08-28.jlpt%20kanji.html>.  
 
 The word frequency list is public domain and is included with the source.
 

@@ -180,6 +180,11 @@ def write_many_random
 	write_random("elementary.txt", "elementary.xml")
 	write_random("jhs.txt", "jhs.xml")
 	write_random("joyo.txt", "joyo.xml")
+	write_random("jlpt.n5.txt", "jlpt.n5.xml")
+	write_random("jlpt.n4.txt", "jlpt.n4.xml")
+	write_random("jlpt.n3.txt", "jlpt.n3.xml")
+	write_random("jlpt.n2.txt", "jlpt.n2.xml")
+	write_random("jlpt.n1.txt", "jlpt.n1.xml")
 end
 
 write_many_random
