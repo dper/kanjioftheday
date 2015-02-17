@@ -16,8 +16,8 @@ Some other websites already offer kanji of the day.  I've used Yookoso (<http://
 To see this code in action, visit <https://dperkins.org/kanjioftheday/feeds.html>.  You can use those feeds for your own purposes, if you like.  Or, as mentioned above, you can deploy your own instance and customize it as you like.
 
 
-Screenshot
-==========
+Screenshots
+===========
 
 See `screenshots/` if you are interested in them.
 
