@@ -3,6 +3,7 @@ KanjiOfTheDay
 
 A script to produce a piece of HTML showing kanji of the day and some information about it.
 
+
 Objective
 =========
 
@@ -14,10 +15,12 @@ Some other websites already offer kanji of the day.  I've used Yookoso (<http://
 
 To see this code in action, visit <https://dperkins.org/kanjioftheday/feeds.html>.  You can use those feeds for your own purposes, if you like.  Or, as mentioned above, you can deploy your own instance and customize it as you like.
 
+
 Screenshot
 ==========
 
 ![2014-08-22.liferea.png](/screenshots/2014-08-22.liferea.png "A screenshot using Liferea.")
+
 
 Starting Out
 ============
@@ -35,6 +38,7 @@ After running that for a few days to make sure it works, disable the output.
 ```
 
 If you're happy with how that works, you don't have to look at the rest of the project at all.
+
 
 Getting Dependencies
 ====================
@@ -55,6 +59,7 @@ Or do this from the command line.
     unzip 2014-01-24.kanjidic2.zip
     unzip 2014-01-24.edict.zip
 
+
 Details
 =======
 
@@ -74,10 +79,24 @@ The examples can get quite long, so you probably wouldn't want to look at the fi
 
 This project comes with some lists of kanji in the `lists` directory.  You can copy and paste those onto `targetkanji.txt` as desired.  Or, if you'd like to use a different set of kanji, modify `targetkanji.txt` by hand.  For convenience, the script `generator.sh` generates details files for all of the elementary and junior high school kanji lists and places the resultant details files in `web`.
 
-Issues
+
+Source
 ======
 
-If you see any issues, obvious but missing features, or problems with the documentation, feel free to open an issue at <https://github.com/dper/KanjiForAnki/issues> or contact the author at <https://microca.st/dper>.
+* Browse: <https://dperkins.org/git/gitlist/kanjioftheday.git/>
+* Clone: <https://dperkins.org/git/public/kanjioftheday.git/>
+* GitHub: <https://github.com/dper/kanjioftheday/>
+
+
+Contact
+=======
+
+If you want to contact the author, here are some ways.  Bug reports and improvements are always welcome.
+
+* <https://microca.st/dper>
+* <https://twitter.com/dpp0>
+* <https://dperkins.org/tag/contact.html>
+
 
 Sources
 =======
@@ -93,18 +112,19 @@ The JLPT kanji lists are based on those from the old official JLPT documentation
 
 * <https://dperkins.org/arc/2014-08-28.jlpt%20kanji.html>.  
 
-The word frequency list is public domain and is included with the source.
+The word frequency list, `wordfreq_ck.txt`, is public domain and is included with the source.
 
-* <http://ftp.monash.edu.au/pub/nihongo/00INDEX.html>.
-* <http://www.bcit-broadcast.com/monash/wordfreq.README>.
-* <http://ftp.monash.edu.au/pub/nihongo/wordfreq_ck.gz>.  Retrieved 2014-01-24.
+* <ftp://ftp.edrdg.org/pub/Nihongo/00INDEX.html>.
+* <ftp://ftp.edrdg.org/pub/Nihongo/wordfreq.README>.
+* <ftp://ftp.edrdg.org/pub/Nihongo/wordfreq_ck.gz>.  Retrieved 2014-01-24.
 
 The kanji dictionary and Japanese word dictionary are available from their original sources.  The original sources aren't in Unicode, but you can and should check there for updates and make the conversions yourself using a web browser and some copy and pasting.
 
-* <http://www.csse.monash.edu.au/~jwb/kanjidic2/>.
-* <http://www.csse.monash.edu.au/~jwb/kanjidic2/kanjidic2.xml.gz>.
-* <http://www.csse.monash.edu.au/~jwb/edict.html>.
-* <http://ftp.monash.edu.au/pub/nihongo/edict.gz>.
+* <ftp://ftp.edrdg.org/pub/Nihongo/kanjidic2_ov.html>.
+* <ftp://ftp.edrdg.org/pub/Nihongo/kanjidic2.xml.gz>.
+* <ftp://ftp.edrdg.org/pub/Nihongo/edict_doc.html>.
+* <ftp://ftp.edrdg.org/pub/Nihongo/edict.gz>.
+
 
 Contributions
 =============
