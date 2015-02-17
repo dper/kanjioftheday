@@ -19,7 +19,7 @@ To see this code in action, visit <https://dperkins.org/kanjioftheday/feeds.html
 Screenshot
 ==========
 
-![2014-08-22.liferea.png](screenshots/2014-08-22.liferea.png "A screenshot using Liferea.")
+See `screenshots/` if you are interested in them.
 
 
 Starting Out
