@@ -11,7 +11,7 @@ This project is a script that takes a list of kanji as input and outputs a file 
 
 Kanji are Japanese characters.  There are several thousand in existence.  If you want to learn them, you should study in many ways.  A daily script such as this is a tool to buttress whatever other study methods you already have.  If you're already doing reading practice, it's sometimes helpful to focus on a single character and see some common words that make use of the the character.
 
-Some other websites already offer kanji of the day.  I've used Yookoso (<http://www.yookoso.com/pages/study.php>) happily in the past.  It offers much the same kind of thing as can be found here, along with many other useful study tools.  On the other hand, you can't play around with third party websites.  You don't get to decide what the information looks like, and if you dislike the formatting, tough luck.  And if someone else's site goes down, you can't fix it.  This project is designed to give you an extra level of control.
+Some other websites already offer kanji of the day.  I've used [Yookoso](http://www.yookoso.com/pages/study.php) happily in the past.  It offers much the same kind of thing as can be found here, along with many other useful study tools.  On the other hand, you can't play around with third party websites.  You don't get to decide what the information looks like, and if you dislike the formatting, tough luck.  And if someone else's site goes down, you can't fix it.  This project is designed to give you an extra level of control.
 
 To see this code in action, visit <https://dperkins.org/kanjioftheday/feeds.html>.  You can use those feeds for your own purposes, if you like.  Or, as mentioned above, you can deploy your own instance and customize it as you like.
 
@@ -101,7 +101,7 @@ If you want to contact the author, here are some ways.  Bug reports and improvem
 Sources
 =======
 
-Most of this code is pulled from kanjiforanki (<https://github.com/dper/kanjiforanki>).  That code was designed for flash cards, which are by nature small.  The HTML here is designed for regular web use and is not as constrained in size.  That project was based on a project I did in 2011 to make paper flash cards for elementary school kanji.  <https://dperkins.org/arc/2011-03-22.kanji%20flashcards.html>
+Most of this code is pulled from [kanjiforanki](https://github.com/dper/kanjiforanki).  That code was designed for flash cards, which are by nature small.  The HTML here is designed for regular web use and is not as constrained in size.  That project was based on a [project](https://dperkins.org/arc/2011-03-22.kanji%20flashcards.html) I did in 2011 to make paper flash cards for elementary school kanji.
 
 The school-based kanji lists themselves are published by the Ministry of Education (MEXT) in Japan.  Other websites copy and paste the data from official MEXT documents.
 
