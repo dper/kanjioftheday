@@ -129,7 +129,7 @@ class Edict
 	# so it is desirable to only make one of this.
 	def initialize
 		puts 'Parsing edict.txt ...'
-		path = Script_dir + '/edict.txt'
+		path = Script_dir + '/dictionaries/edict.txt'
 		edict = IO.readlines path
 		@lookup_table = {}
 		
