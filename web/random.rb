@@ -22,7 +22,7 @@ require 'rss'
 
 Script_dir = File.dirname(__FILE__)
 URL = "https://dperkins.org/kanjioftheday/"
-Author = "Douglas Paul Perkins"
+Author = "Douglas Perkins"
 
 # The entire details file.
 class Details
@@ -97,7 +97,7 @@ class Styler
 
 	# Returns an attribution string.
 	def get_attribution
-		attribution = "This page was generated using <a href=\"https://github.com/dper/kanjioftheday/\">kanjioftheday</a>, written by Douglas Paul Perkins.  Kanji lists came from the Ministry of Education.  Example words are derived from a <a href=\"http://www.bcit-broadcast.com/monash/wordfreq.README\">word frequency list</a> by Alexandre Girardi.  Dictionary information is taken from <a href=\"http://www.csse.monash.edu.au/~jwb/kanjidic2/\">KANJIDIC2</a> and <a href=\"http://www.edrdg.org/jmdict/edict.html\">EDICT</a>."
+		attribution = "This page was generated using <a href=\"https://github.com/dper/kanjioftheday/\">kanjioftheday</a>, written by Douglas Perkins.  Kanji lists came from the Ministry of Education.  Example words are derived from a <a href=\"http://www.bcit-broadcast.com/monash/wordfreq.README\">word frequency list</a> by Alexandre Girardi.  Dictionary information is taken from <a href=\"http://www.csse.monash.edu.au/~jwb/kanjidic2/\">KANJIDIC2</a> and <a href=\"http://www.edrdg.org/jmdict/edict.html\">EDICT</a>."
 		return attribution
 	end
 
@@ -132,7 +132,7 @@ class Styler
 	# Makes the Atom text.
 	def make_rss
 		rss = RSS::Maker.make("2.0") do |maker|
-			maker.channel.author = "Douglas Paul Perkins"
+			maker.channel.author = "Douglas Perkins"
 			maker.channel.updated = Time.now.to_s
 			maker.channel.about = "https://github.com/dper/kanjioftheday/"
 			maker.channel.title = "Kanji of the Day"

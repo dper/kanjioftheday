@@ -15,7 +15,7 @@
 # in the same directory.  See COPYING for file source information.
 #
 # == AUTHOR
-#   Douglas P Perkins - https://dperkins.org - https://microca.st/dper
+#   Douglas Perkins - https://dperkins.org - https://microca.st/dper
 
 require 'nokogiri'
 
@@ -159,9 +159,8 @@ class Kanji
 	def lookup_examples
 		@examples = []
 		return unless $wordfreq.include? @literal
-		$wordfreq.lookup(@literal).each do |line|
-			word,frequency = line.split
-			ex = Example.new(word, frequency.strip)
+		$wordfreq.lookup(@literal).each do |pair|
+			ex = Example.new(pair[0], pair[1])
 		
 			# Only keep examples that are in the dictionary.
 			next unless ex.lookup_definition
@@ -207,7 +206,7 @@ end
 class Kanjidic
 	def initialize
 		puts 'Parsing kanjidic2.xml ...'
-		path = Script_dir + '/kanjidic2.xml'
+		path = Script_dir + '/dictionaries/kanjidic2.xml'
 		doc = Nokogiri::XML(open(path), nil, 'UTF-8')
 		@characters = {}
 		doc.xpath('kanjidic2/character').each do |node|
