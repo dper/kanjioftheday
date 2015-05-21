@@ -19,18 +19,8 @@
 
 require 'nokogiri'
 
-# Extra functions for Arrays.
-class Array
-	# Returns the array minus the lead element, or [] if not possible.
-	def rest
-		case self.size
-			when 0..1 then []
-			else self[1..-1]
-		end
-	end
-end
-
 Script_dir = File.dirname(__FILE__)
+require Script_dir + '/' + 'wordfreq'
 
 # Fixes style quirks in Edict.
 class Styler
@@ -77,49 +67,6 @@ class Styler
 		end
 
 		return text
-	end
-end
-
-# Word frequency list.  Words that are too short or too long are excluded.
-class Wordfreq
-	# The maximum kanji count for a sample word.
-	Max_example_word_width = 8 
-
-	# Creates a Wordfreq.
-	def initialize
-		puts 'Parsing wordfreq_ck.txt ...'
-		path = Script_dir + '/wordfreq_ck.txt'
-		wordfreq = IO.readlines path
-		wordfreq.delete_if {|line| line.start_with? '#'}
-		wordfreq.delete_if {|line| not line.include? "\t"}
-		wordfreq.delete_if {|line|
-			word = line.split[0]
-			length = word.scan(/./u).length
-			length < 2 or length > Max_example_word_width
-		}
-
-		@lookup_table = {}
-		
-		wordfreq.each do |line|
-			line.split[0].scan(/./u).each do |char|
-				if not @lookup_table.key? char
-					@lookup_table[char] = [line]
-				else
-					@lookup_table[char] << line
-				end
-			end
-		end
-	end
-
-	# Returns a list of lines in Wordfreq that contain the kanji.
-	# Words in this list are sorted most to least common.
-	def lookup kanji
-		return @lookup_table[kanji]
-	end
-
-	# Returns true if the kanji is in this word list, and false otherwise.
-	def include? kanji
-		return @lookup_table.key? kanji
 	end
 end
 

@@ -1,5 +1,10 @@
 #!/bin/sh
 
+# Get the kanji dictionary.
+rm kanjidic2.xml
+wget http://www.edrdg.org/kanjidic/kanjidic2.xml.gz
+gunzip kanjidic2.xml.gz
+
 # Get the word dictionary.
 rm edict.txt
 wget http://ftp.monash.edu.au/pub/nihongo/edict.zip
