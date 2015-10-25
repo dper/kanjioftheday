@@ -22,6 +22,12 @@ Screenshots
 See `screenshots/` if you are interested in them.
 
 
+Installation
+============
+
+First of all, you need Ruby.  Version 1.9.2 or newer is sufficient.  Some dependencies are needed.  They are relatively large in size.  Run the `dictionaries/update_dictionaries.sh` script to get them.  Some of the dictionary files are Creative Commons Attribution-Share Alike 3.0 licensed.  Take care if you are redistributing them to observe this.
+
+
 Starting Out
 ============
 
@@ -38,26 +44,6 @@ After running that for a few days to make sure it works, disable the output.
 ```
 
 If you're happy with how that works, you don't have to look at the rest of the project at all.
-
-
-Getting Dependencies
-====================
-
-Ruby is needed.  Versions 1.9.2 and newer should be sufficient.  Version 1.8.7 has been tested but is not recommended.  Older versions may or may not work.
-
-This code is under the GPLv3 license.  However, to make the generator script work, some more restrictive dependencies are needed.  Download the following files and put them in the same directory as this script.
-
-The kanji dictionary and Japanese word dictionary are Creative Commons Attribution-Share Alike 3.0 licensed and can be downloaded here.
-
-* <https://dperkins.org/2014/2014-01-24.kanjidic2.zip>
-* <https://dperkins.org/2014/2014-01-24.edict.zip>
-
-Or do this from the command line.
-
-    wget https://dperkins.org/2014/2014-01-24.kanjidic2.zip
-    wget https://dperkins.org/2014/2014-01-24.edict.zip
-    unzip 2014-01-24.kanjidic2.zip
-    unzip 2014-01-24.edict.zip
 
 
 Details
