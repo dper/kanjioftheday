@@ -79,9 +79,8 @@ Contact
 
 If you want to contact the author, here are some ways.  Bug reports and improvements are always welcome.
 
-* <https://microca.st/dper>
 * <https://twitter.com/dpp0>
-* <https://dperkins.org/tag/contact.html>
+* <https://dperkins.org/>
 
 
 Sources

@@ -15,13 +15,13 @@
 # See the README for more information.
 #
 # == AUTHOR
-#   Douglas P Perkins - https://dperkins.org - https://microca.st/dper
+#   Douglas P Perkins - https://dperkins.org - https://twitter.com/dpp0
 
 require 'date'
 require 'rss'
 
 Script_dir = File.dirname(__FILE__)
-URL = "https://dperkins.org/kanjioftheday/"
+URL = "https://kotd.dperkins.org/"
 Author = "Douglas Perkins"
 
 # The entire details file.

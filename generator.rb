@@ -15,7 +15,7 @@
 # in the same directory.  See COPYING for file source information.
 #
 # == AUTHOR
-#   Douglas Perkins - https://dperkins.org - https://microca.st/dper
+#   Douglas Perkins - https://dperkins.org - https://twitter.com/dpp0
 
 require 'nokogiri'
 
