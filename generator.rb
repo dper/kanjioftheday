@@ -11,9 +11,6 @@
 # Takes a list of kanji as input and outputs a file that can be used to
 # generate a kanji of the day entry.
 # 
-# This script depends on several files having proper formatting located
-# in the same directory.  See COPYING for file source information.
-#
 # == AUTHOR
 #   Douglas Perkins - https://dperkins.org - https://twitter.com/dpp0
 
@@ -63,7 +60,7 @@ class Styler
 	# Returns re-styled text.
 	def fix_style text
 		@lookup_table.keys.each do |key|
-			text = text.sub(key, @lookup_table[key])
+			text.gsub!(key, @lookup_table[key])
 		end
 
 		return text
@@ -101,10 +98,9 @@ class Edict
 		# grammatical terms.  Only the first definition is used here.
 		definition = @lookup_table[word]
 
-		if not definition then return nil end
+		unless definition then return nil end
 
 		kana = definition.partition('[')[2].partition(']')[0]
-
 		meaning = definition.partition('/')[2]
 
 		while meaning.start_with? '('
@@ -134,7 +130,7 @@ class Example
 	# Returns true if the definition is found, and false otherwise.
 	def lookup_definition
 		definition = $edict.define @word
-		if not definition then return false end
+		unless definition then return false end
 		@kana, meaning = definition
 		meaning = $styler.fix_style meaning
 		@meaning = meaning
@@ -271,12 +267,6 @@ end
 
 # Makes the details file for a given list of Kanji.
 class Detailsmaker
-	# Makes the literal string.
-	def make_literal literal
-		s = literal
-		return s
-	end
-
 	# Makes the stroke count string.
 	def make_stroke_count stroke_count
 		s = "✍" + stroke_count
@@ -369,7 +359,7 @@ class Detailsmaker
 		# The order of these lines is important.
 		# If they are changed, care must be taken upon import.
 
-		card = make_literal kanji.literal
+		card = kanji.literal
 		card += splitter
 		card += make_stroke_count kanji.stroke_count
 		card += splitter
