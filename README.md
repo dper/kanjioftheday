@@ -83,24 +83,19 @@ If you want to contact the author, here are some ways.  Bug reports and improvem
 Sources
 =======
 
-Most of this code is pulled from [kanjiforanki](https://github.com/dper/kanjiforanki).  That code was designed for flash cards, which are by nature small.  The HTML here is designed for regular web use and is not as constrained in size.  That project was based on a [project](https://dperkins.org/arc/2011-03-22.kanji%20flashcards.html) I did in 2011 to make paper flash cards for elementary school kanji.
+This code was based on [kanjiforanki](https://github.com/dper/kanjiforanki), a 2011 project to create paper flashcards. These days, I would generally recommend using Anki or some other kind of spaced repetition system instead of physical flashcards.
 
 The school-based kanji lists themselves are published by the Ministry of Education (MEXT) in Japan.  Other websites copy and paste the data from official MEXT documents.
 
 * <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/syo/koku/001.htm>.  Elementary school kanji.
 * <http://www.imabi.net/joyokanjilist.htm>.  Elementary and junior high school kanji.
 
-The JLPT kanji lists are based on those from the old official JLPT documentation.  The current version of the test has no official list, though, so we are forced to do some guesswork.
+The JLPT kanji lists are based on those from the old official JLPT documentation.
 
-The word frequency list, `wordfreq_ck.txt`, is public domain and is included with the source.
-
-* <ftp://ftp.edrdg.org/pub/Nihongo/00INDEX.html>.
-* <ftp://ftp.edrdg.org/pub/Nihongo/wordfreq.README>.
-* <ftp://ftp.edrdg.org/pub/Nihongo/wordfreq_ck.gz>.  Retrieved 2014-01-24.
-
-The kanji dictionary and Japanese word dictionary are available from their original sources.  The original sources aren't in Unicode, but you can and should check there for updates and make the conversions yourself using a web browser and some copy and pasting.
+The current version of the test has no official list, though, so we are forced to do some guesswork.  The dictionaries are available from their original sources.
 
 * <http://nihongo.monash.edu/japanese.html>
+
 
 Contributions
 =============
