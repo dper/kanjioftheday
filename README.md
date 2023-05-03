@@ -69,8 +69,6 @@ This project comes with some lists of kanji in the `lists` directory.  You can c
 Source
 ======
 
-* Browse: <https://dperkins.org/git/gitlist/kanjioftheday.git/>.
-* Clone: <https://dperkins.org/git/public/kanjioftheday.git/>.
 * GitHub: <https://github.com/dper/kanjioftheday/>.
 
 
@@ -79,7 +77,6 @@ Contact
 
 If you want to contact the author, here are some ways.  Bug reports and improvements are always welcome.
 
-* <https://twitter.com/dpp0>
 * <https://dperkins.org/>
 
 

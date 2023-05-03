@@ -15,7 +15,7 @@
 # See the README for more information.
 #
 # == AUTHOR
-#   Douglas P Perkins - https://dperkins.org - https://twitter.com/dpp0
+#   Douglas P Perkins - https://dperkins.org
 
 require 'date'
 require 'rss'
