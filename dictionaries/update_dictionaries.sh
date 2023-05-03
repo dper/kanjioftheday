@@ -7,10 +7,10 @@ gunzip kanjidic2.xml.gz
 
 # Get the word dictionary.
 rm edict.txt
-wget http://ftp.monash.edu.au/pub/nihongo/edict.zip
-unzip edict.zip
+wget http://ftp.edrdg.org/pub/Nihongo/edict.gz
+gunzip edict.gz
 iconv -f EUC-JP -t UTF-8 edict > edict.txt
-rm edict edict.zip edict_doc.html edict.jdx
+rm edict
 
 # Get the word frequency file.
 rm distribution.txt

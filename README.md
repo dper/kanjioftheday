@@ -95,8 +95,6 @@ The school-based kanji lists themselves are published by the Ministry of Educati
 
 The JLPT kanji lists are based on those from the old official JLPT documentation.  The current version of the test has no official list, though, so we are forced to do some guesswork.
 
-* <https://dperkins.org/arc/2014-08-28.jlpt%20kanji.html>.  
-
 The word frequency list, `wordfreq_ck.txt`, is public domain and is included with the source.
 
 * <ftp://ftp.edrdg.org/pub/Nihongo/00INDEX.html>.
@@ -105,11 +103,7 @@ The word frequency list, `wordfreq_ck.txt`, is public domain and is included wit
 
 The kanji dictionary and Japanese word dictionary are available from their original sources.  The original sources aren't in Unicode, but you can and should check there for updates and make the conversions yourself using a web browser and some copy and pasting.
 
-* <ftp://ftp.edrdg.org/pub/Nihongo/kanjidic2_ov.html>.
-* <ftp://ftp.edrdg.org/pub/Nihongo/kanjidic2.xml.gz>.
-* <ftp://ftp.edrdg.org/pub/Nihongo/edict_doc.html>.
-* <ftp://ftp.edrdg.org/pub/Nihongo/edict.gz>.
-
+* <http://nihongo.monash.edu/japanese.html>
 
 Contributions
 =============
