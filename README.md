@@ -62,7 +62,6 @@ Run `web/mastodon.rb`. This posts to the Mastodon account you've configured. To 
     @daily /usr/bin/ruby /path/to/script/mastodon.sh
 
 
-
 Details
 =======
 

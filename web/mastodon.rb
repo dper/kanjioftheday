@@ -116,10 +116,12 @@ end
 class Poster
 	# Write to Mastodon.
 	def mastodon(text)
-		#TODO write file.
-		command = 'toot post < mastodon.txt'
-		puts text
-		#TODO remove file.
+		path = Script_dir + '/mastodon.txt'
+		File.open(path, 'w') { |file| file.puts text }
+		command = "toot post < mastodon.txt"
+		results = system(command)
+		puts results 
+		if File.exist?(path) then File.delete(path) end
 	end
 
 	# Post the file.

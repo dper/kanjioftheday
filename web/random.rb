@@ -141,9 +141,7 @@ class Styler
 	def write_rss
 		puts 'Writing to ' + @output + ' ...'
 		path = Script_dir + '/' + @output
-		open(path, 'w') do |file|
-			file.puts @rss
-		end
+		File.open(path, 'w') { |file| file.puts @rss }
 	end
 end
 
