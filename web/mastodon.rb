@@ -134,10 +134,10 @@ class Poster
 end
 
 # Writes the random kanji to Mastodon.
-def post_many
+def post
 	$poster = Poster.new
-	#post_random("elementary.txt")
 	$poster.post("joyo.txt")
+	#post_random("elementary.txt")
 end
 
-post_many
+post
