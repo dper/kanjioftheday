@@ -103,7 +103,7 @@ Suggestions and comments are always welcome.
 Sources
 =======
 
-This code was based on [kanjiforanki](https://github.com/dper/kanjiforanki), a 2011 project to create paper flashcards. These days, I would generally recommend using Anki or some other kind of spaced repetition system instead of physical flashcards.
+This code was originally forked from [kanjiforanki](https://github.com/dper/kanjiforanki), a 2011 project to create paper flashcards.
 
 The JLPT kanji lists are based on those from the old official JLPT documentation.
 
