@@ -14,16 +14,7 @@
 # == AUTHOR
 # Douglas P Perkins - https://dperkins.org
 
-
-#TODO Mastodon support is not yet working.
-
-require 'date'
-require 'rss'
-require 'mastodon'
-
 Script_dir = File.dirname(__FILE__)
-URL = "https://kotd.dperkins.org/"
-Author = "Douglas Perkins"
 
 # The entire details file.
 class Details
@@ -50,14 +41,9 @@ end
 # Adjusts the details to be useful on Mastodon.
 # As a part of this, HTML is changed to raw text.
 class Styler
-	attr_accessor :html	# Styled HTML output.
-	attr_accessor :rss	# Styled Atom output.
-	attr_accessor :output	# The output file.
-
 	# Styles the given line.
-	def initialize (line, output)
+	def initialize (line)
 		@line = line
-		@output = output
 		style_text
 	end
 
@@ -108,7 +94,6 @@ class Styler
 		return examples
 	end
 
-	# Returns the current date and time as a string in RFC3339 format.
 	# Makes a styled HTML block for embedding.
 	def style_text
 		text = get_literal + "\n\n"
@@ -128,32 +113,29 @@ class Styler
 	end
 end
 
-# Posts text to Mastodon.
-class Poster 
-	def initialize
-		mastodon_url = #TODO
-		client_url = "https://github.com/dper/kanjioftheday"
-		client = Mastodon::REST::Client.new(base_url: url)
-		app = client.create('KanjiOfTheDay', client_url, 'write')
+class Poster
+	# Write to Mastodon.
+	def mastodon(text)
+		#TODO write file.
+		command = 'toot post < mastodon.txt'
+		puts text
+		#TODO remove file.
 	end
 
-	#Posts text to Mastodon.
-	def post (text)
-		#TODO
+	# Post the file.
+	def post(file)
+		details = Details.new(file)
+		styler = Styler.new(details.line)
+		text = styler.get_text
+		mastodon(text)
 	end
 end
 
-# Writes the random kanji Atom feed for a file.
-def post_random (input, output)
-	$details = Details.new input
-	$styler = Styler.new($details.line, output)
-	puts $styler.get_text
+# Writes the random kanji to Mastodon.
+def post_many
+	$poster = Poster.new
+	#post_random("elementary.txt")
+	$poster.post("joyo.txt")
 end
 
-# Writes the random kanji Atom feeds for a bunch of files.
-def post_many_random
-	post_random("elementary.txt", "elementary.xml")
-	post_random("joyo.txt", "joyo.xml")
-end
-
-post_many_random
+post_many

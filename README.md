@@ -29,11 +29,6 @@ Download the source code into a directory of your choosing.
 
 Ruby is required. Version 3.1.2 or newer should work.
 
-If you want to post to Mastodon, install `mastodon-api` and configure as described below.
-
-    # gem install mastodon-api
-
-
 
 Getting Going
 =============
@@ -60,13 +55,11 @@ After running that for a few days to make sure it works, disable the output.
 Mastodon
 ========
 
+First, get [toot]<https://github.com/ihabunek/toot> working with your target account.
+
 Run `web/mastodon.rb`. This posts to the Mastodon account you've configured. To do this daily, make a cronjob.
 
-    @daily /usr/bin/ruby /path/to/script/mastodon.rb
-
-The first time you run Mastodon, you'll need to configure everything. On your Mastodon instance's web interface, go to the Developer page and create a new app that can write to your status. Then copy/paste the access token into `web/mastodon.txt`.
-
-    token=YOUR-SECRET-ACCESS-TOKEN-GOES-HERE
+    @daily /usr/bin/ruby /path/to/script/mastodon.sh
 
 
 
