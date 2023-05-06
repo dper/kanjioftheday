@@ -19,6 +19,7 @@
 
 require 'date'
 require 'rss'
+require 'mastodon'
 
 Script_dir = File.dirname(__FILE__)
 URL = "https://kotd.dperkins.org/"
@@ -46,6 +47,8 @@ class Details
 	end
 end
 
+# Adjusts the details to be useful on Mastodon.
+# As a part of this, HTML is changed to raw text.
 class Styler
 	attr_accessor :html	# Styled HTML output.
 	attr_accessor :rss	# Styled Atom output.
@@ -122,6 +125,21 @@ class Styler
 
 	def get_text
 		return @text
+	end
+end
+
+# Posts text to Mastodon.
+class Poster 
+	def initialize
+		mastodon_url = #TODO
+		client_url = "https://github.com/dper/kanjioftheday"
+		client = Mastodon::REST::Client.new(base_url: url)
+		app = client.create('KanjiOfTheDay', client_url, 'write')
+	end
+
+	#Posts text to Mastodon.
+	def post (text)
+		#TODO
 	end
 end
 
