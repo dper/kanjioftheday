@@ -31,7 +31,7 @@ First of all, you need Ruby.  Version 1.9.2 or newer is sufficient.  Some depend
 Starting Out
 ============
 
-To begin with, look in the `web` directory.  The files there are ready to go.  The script `random.rb` updates each RSS feed specified in it.  Take a look at `random.rb` and modify it if you like.  Each time you call `random.rb`, you produce a new random kanji for each file specified in it.  So, to make a kanji of the day, just make a cronjob that runs the script daily.
+To begin with, look in the `rss` directory.  The files there are ready to go.  The script `random.rb` updates each RSS feed specified in it.  Take a look at `random.rb` and modify it if you like.  Each time you call `random.rb`, you produce a new random kanji for each file specified in it.  So, to make a kanji of the day, just make a cronjob that runs the script daily.
 
 ```
 @daily /usr/bin/ruby /path/to/script/random.rb
@@ -63,7 +63,7 @@ The format of `details.txt` is a tab-delimited UTF-8 text file.  The tabs are, i
 
 The examples can get quite long, so you probably wouldn't want to look at the file itself very much, but if you're running into unexpected behavior, it's work a look.  The left-most part of each line should be quite legible.
 
-This project comes with some lists of kanji in the `lists` directory.  You can copy and paste those onto `targetkanji.txt` as desired.  If you'd like to use a different set of kanji, modify `targetkanji.txt` by hand.  For convenience, the script `generator.sh` generates details files for all of the elementary and junior high school kanji lists and places the results in `web`.
+This project comes with some lists of kanji in the `lists` directory.  You can copy and paste those onto `targetkanji.txt` as desired.  If you'd like to use a different set of kanji, modify `targetkanji.txt` by hand.  For convenience, the script `generator.sh` generates details files for all of the elementary and junior high school kanji lists and places the results in `rss`.
 
 
 Source
