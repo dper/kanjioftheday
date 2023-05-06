@@ -64,7 +64,7 @@ class Styler
 
 	# Returns the stroke count.
 	def get_strokes
-		return @line.split("\t")[1]
+		return "✍" + @line.split("\t")[1]
 	end
 
 	# Returns the grade level, if specified.

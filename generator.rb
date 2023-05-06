@@ -30,7 +30,7 @@ class Generator
 
 	# Makes the stroke count string.
 	def make_stroke_count stroke_count
-		s = "✍" + stroke_count
+		s = stroke_count
 		return s
 	end
 

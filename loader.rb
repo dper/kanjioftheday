@@ -146,7 +146,7 @@ class Kanji
 	attr_accessor :onyomis	    # Zero or more onyomi readings.
 	attr_accessor :examples     # Example list.
 
-	Max_example_count = 20 # The maximum number of examples to store.
+	Max_example_count = 10 # The maximum number of examples to store.
 	Max_example_size = 75 # Max example width.
 
 	# Look up examples of word use and record them.

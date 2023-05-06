@@ -14,6 +14,9 @@
 # == AUTHOR
 # Douglas P Perkins - https://dperkins.org
 
+
+#TODO Mastodon support is not yet working.
+
 require 'date'
 require 'rss'
 
@@ -24,7 +27,6 @@ Author = "Douglas Perkins"
 # The entire details file.
 class Details
 	attr_accessor :line	# A random line from the details file.
-	
 
 	# Creates a Details.
 	def initialize (input)
@@ -53,28 +55,34 @@ class Styler
 	def initialize (line, output)
 		@line = line
 		@output = output
-		style_core
-		make_rss
+		style_text
 	end
 
 	# Returns the literal.
 	def get_literal
-		return @line.split("\t")[0]
+		literal = @line.split("\t")[0]
+		literal = "Kanji: " + literal
+		return literal
 	end
 
 	# Returns the stroke count.
 	def get_strokes
-		return @line.split("\t")[1]
+		strokes = @line.split("\t")[1]
+		strokes = "✍ " + strokes
+		return strokes
 	end
 
 	# Returns the grade level, if specified.
 	def get_grade
-		return @line.split("\t")[2]
+		grade = @line.split("\t")[2]
+		grade = "🏫 " + grade
+		return grade
 	end
 
 	# Returns the meaning or meanings -- one or more.
 	def get_meanings
-		return @line.split("\t")[3]
+		meanings = @line.split("\t")[3]
+		return meanings
 	end
 
 	# Returns the onyomi -- zero or more.
@@ -89,81 +97,46 @@ class Styler
 
 	# Returns the example words and definitions.
 	def get_examples
-		return @line.split("\t")[6]
+		examples = @line.split("\t")[6]
+		examples = examples.each_line.take(10)[0].join('')
+		examples.gsub!('<br />', "\n")
+		examples.gsub!('&nbsp;', " ")
+		examples.gsub!('  &mdash;  ', "—")
+		examples.gsub!('   ', ' ')
+		return examples
 	end
 
 	# Returns the current date and time as a string in RFC3339 format.
 	# Makes a styled HTML block for embedding.
-	def style_core
-		core = "<center>\n"
-		core += "<p style=\"font-size: 500%; color: blue;\">" + get_literal + "</p>\n"
-		core += "<p style=\"color: #ff66ff;\">" + get_strokes + "</p>\n"
-		core += "<p style=\"color: gray;\">" + get_grade + "</p>\n"
-		core += "<p style=\"color: green;\">" + get_meanings + "</p>\n"
-		core += "<p style=\"color: orange;\">" + get_onyomis + "</p>\n"
-		core += "<p style=\"color: red;\">" + get_kunyomis + "</p>\n"
-		core += "<p>" + get_examples + "</p>\n"
-		core += "</center>\n"
-		@core = core	
+	def style_text
+		text = get_literal + "\n\n"
+		text += get_meanings + "\n\n"
+		text += get_onyomis + "\n"
+		text += get_kunyomis + "\n\n"
+		text += get_examples + "\n\n"
+		text += get_strokes + "\n"
+		text += get_grade + "\n\n"
+		text += "#kanji #japanese\n"
+		text.gsub!("\n\n\n", "\n\n")
+		@text = text	
 	end
 
-	# Makes the Atom text.
-	def make_rss
-		rss = RSS::Maker.make("2.0") do |maker|
-			maker.channel.author = "Douglas Perkins"
-			maker.channel.updated = Time.now.to_s
-			maker.channel.about = "https://github.com/dper/kanjioftheday/"
-			maker.channel.title = "Kanji of the Day"
-			maker.channel.link = URL
-			maker.channel.description = "Kanji of the Day"
-
-			maker.items.new_item do |item|
-				item.link = URL + @output
-				item.title = "Kanji of the Day: " + get_literal
-				item.updated = Time.now.to_s
-				item.description = @core
-				date = DateTime.now.rfc3339
-				item.guid.content = URL + @output + '#' + date
-				item.guid.isPermaLink = false
-			end
-		end
-
-		@rss = rss
-	end
-
-	# Writes the RSS text to a file.
-	def write_rss
-		puts 'Writing to ' + @output + ' ...'
-		path = Script_dir + '/' + @output
-		open(path, 'w') do |file|
-			file.puts @rss
-		end
+	def get_text
+		return @text
 	end
 end
 
 # Writes the random kanji Atom feed for a file.
-def write_random (input, output)
+def post_random (input, output)
 	$details = Details.new input
 	$styler = Styler.new($details.line, output)
-	$styler.write_rss
+	puts $styler.get_text
 end
 
 # Writes the random kanji Atom feeds for a bunch of files.
-def write_many_random
-	write_random("elementary.1.txt", "elementary.1.xml")
-	write_random("elementary.2.txt", "elementary.2.xml")
-	write_random("elementary.3.txt", "elementary.3.xml")
-	write_random("elementary.4.txt", "elementary.4.xml")
-	write_random("elementary.5.txt", "elementary.5.xml")
-	write_random("elementary.6.txt", "elementary.6.xml")
-	write_random("elementary.txt", "elementary.xml")
-	write_random("jhs.txt", "jhs.xml")
-	write_random("joyo.txt", "joyo.xml")
-	write_random("jlpt.n5.txt", "jlpt.n5.xml")
-	write_random("jlpt.n4.txt", "jlpt.n4.xml")
-	write_random("jlpt.n3.txt", "jlpt.n3.xml")
-	write_random("jlpt.n2.txt", "jlpt.n2.xml")
-	write_random("jlpt.n1.txt", "jlpt.n1.xml")
+def post_many_random
+	post_random("elementary.txt", "elementary.xml")
+	post_random("joyo.txt", "joyo.xml")
 end
 
-write_many_random
+post_many_random
