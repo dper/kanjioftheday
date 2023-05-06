@@ -2,15 +2,15 @@
 # coding: utf-8
 #
 # == NAME
-# random.rb
+# mastodon.rb
 #
 # == USAGE
-# ./random.rb
+# ./mastodon.rb
 #
 # == DESCRIPTION
 # Chooses a line at random from the details file specified below and
-# displays information about the kanji specified in that file.
-# 
+# posts on Mastodon with the results.
+#
 # == AUTHOR
 # Douglas P Perkins - https://dperkins.org
 
