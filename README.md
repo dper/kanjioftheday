@@ -45,7 +45,7 @@ The above two scripts only need to be run on first installation or when you want
 RSS
 ===
 
-Run `web/random.rb`. This creates or updates each RSS feed. If you don't want to generate all of the available feeds, edit the file accordingly. To make a kanji of the day, make a cronjob.
+Run `web/random.rb`. This creates or updates each RSS feed. If you don't want to generate all of the available feeds, edit the file accordingly. To do this daily, make a cronjob.
 
     @daily /usr/bin/ruby /path/to/script/random.rb
 
