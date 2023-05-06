@@ -11,11 +11,8 @@
 # Takes a list of kanji as input and outputs a file that can be used to
 # generate a kanji of the day entry.
 # 
-# This script depends on several files having proper formatting located
-# in the same directory.  See COPYING for file source information.
-#
 # == AUTHOR
-#   Douglas Perkins - https://dperkins.org
+# Douglas Perkins - https://dperkins.org
 
 Script_dir = File.dirname(__FILE__)
 

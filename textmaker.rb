@@ -8,7 +8,7 @@
 # Call this from generator.rb.
 #
 # == DESCRIPTION
-# Generates code to later be used in an RSS feed.
+# Generates text to later be used online.
 # 
 # == AUTHOR
 # Douglas Perkins - https://dperkins.org

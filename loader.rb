@@ -2,20 +2,16 @@
 # coding: utf-8
 #
 # == NAME
-# generator.rb
+# loader.rb
 #
 # == USAGE
-# ./generator.rb
+# This should be called from generator.rb.
 #
 # == DESCRIPTION
-# Takes a list of kanji as input and outputs a file that can be used to
-# generate a kanji of the day entry.
-# 
-# This script depends on several files having proper formatting located
-# in the same directory.  See COPYING for file source information.
+# Loads and manipulates kanji and sentence data.
 #
 # == AUTHOR
-#   Douglas Perkins - https://dperkins.org
+# Douglas Perkins - https://dperkins.org
 
 require 'nokogiri'
 require Script_dir + '/' + 'wordfreq'
