@@ -1,7 +1,11 @@
+edict
 edict.txt
 kanjidic2.xml
+kanjidic2.xml.gz
 targetkanji.txt
 details.txt
+rss.txt
 distribution.txt
 web/*.xml
 web/*.txt
+web/mastodon.txt
