@@ -25,13 +25,27 @@ See `screenshots/` if you are interested in them.
 Installation
 ============
 
-First of all, you need Ruby.  Version 1.9.2 or newer is sufficient.  Some dependencies are needed.  They are relatively large in size.  Run the `dictionaries/update_dictionaries.sh` script to get them.  Some of the dictionary files are Creative Commons Attribution-Share Alike 3.0 licensed.  Take care if you are redistributing them to observe this.
+Ruby is required. Version 3.1.2 or newer should work.
+
+Download the source code into a directory of your choosing.
 
 
-Starting Out
-============
+Getting Going
+=============
 
-To begin with, look in the `web` directory.  The files there are ready to go.  The script `random.rb` updates each RSS feed specified in it.  Take a look at `random.rb` and modify it if you like.  Each time you call `random.rb`, you produce a new random kanji for each file specified in it.  So, to make a kanji of the day, just make a cronjob that runs the script daily.
+Run `dictionaries/update_dictionaries.sh` to get the required dictionary files.  Some of the dictionary files are Creative Commons Attribution-Share Alike 3.0 licensed, so they aren't bundled here.
+
+Next, run `generator.sh`. This could take a minute or two. It compiles all of the dictionaries, kanji, and examples into quickly-usable text files.
+
+The above two scripts only need to be run on first installation or when you want to update the backend data.
+
+
+Regular Use
+===========
+
+Daily action occurs in `web`.
+
+Run `random.rb`. This creates or updates each RSS feed. If you don't want to generate all of the available feeds, edit the file accordingly. To make a kanji of the day, make a cronjob.
 
 ```
 @daily /usr/bin/ruby /path/to/script/random.rb
@@ -43,13 +57,11 @@ After running that for a few days to make sure it works, disable the output.
 @daily /usr/bin/ruby /path/to/script/random.rb > /dev/null
 ```
 
-If you're happy with how that works, you don't have to look at the rest of the project at all.
-
 
 Details
 =======
 
-Once you have the above dependencies, use the script `generator.rb` to produce a details file.  The `generator.rb` script looks for target kanji in the file `targetkanji.txt` and produces a tab-separated details file called `details.txt`.
+The script `generator.rb` looks for target kanji in the file `targetkanji.txt` and produces a tab-separated details file called `details.txt`.
 
 The format of `details.txt` is a tab-delimited UTF-8 text file.  The tabs are, in order, as follows.
 
@@ -61,7 +73,7 @@ The format of `details.txt` is a tab-delimited UTF-8 text file.  The tabs are, i
 * Kunyomis
 * Examples
 
-The examples can get quite long, so you probably wouldn't want to look at the file itself very much, but if you're running into unexpected behavior, it's work a look.  The left-most part of each line should be quite legible.
+The examples can get quite long, so you probably wouldn't want to look at the details file itself unless trouble shooting.
 
 This project comes with some lists of kanji in the `lists` directory.  You can copy and paste those onto `targetkanji.txt` as desired.  If you'd like to use a different set of kanji, modify `targetkanji.txt` by hand.  For convenience, the script `generator.sh` generates details files for all of the elementary and junior high school kanji lists and places the results in `web`.
 
@@ -92,7 +104,7 @@ The school-based kanji lists themselves are published by the Ministry of Educati
 
 The JLPT kanji lists are based on those from the old official JLPT documentation.
 
-The current version of the test has no official list, though, so we are forced to do some guesswork.  The dictionaries are available from their original sources.
+The dictionaries are available from their original sources.
 
 * <http://nihongo.monash.edu/japanese.html>
 
