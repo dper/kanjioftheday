@@ -406,7 +406,7 @@ class Detailsmaker
 
 	# Writes the contents of @details to a text file.
 	def write_details
-		file = 'details.txt'
+		file = 'rss.txt'
 		path = Script_dir + '/' + file
 		puts 'Writing the details to ' + file + '...'
 
