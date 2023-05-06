@@ -8,5 +8,5 @@ do
 	echo "Making details for ${file} ..."
 	cp lists/${file} targetkanji.txt
 	ruby generator.rb
-	cp details.txt details/${file}
+	cp details.txt web/${file}
 done
