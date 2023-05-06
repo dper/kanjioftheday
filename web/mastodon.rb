@@ -98,7 +98,6 @@ class Styler
 	# Returns the example words and definitions.
 	def get_examples
 		examples = @line.split("\t")[6]
-		examples = examples.each_line.take(10)[0].join('')
 		examples.gsub!('<br />', "\n")
 		examples.gsub!('&nbsp;', " ")
 		examples.gsub!('  &mdash;  ', "—")
