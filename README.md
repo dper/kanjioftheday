@@ -29,6 +29,8 @@ Download the source code into a directory of your choosing.
 
 Ruby is required. Version 3.1.2 or newer should work.
 
+If you want to post to Mastodon, get [toot]<https://github.com/ihabunek/toot> working with your target account.
+
 
 Getting Going
 =============
@@ -47,7 +49,7 @@ Run `web/random.rb`. This creates or updates each RSS feed. If you don't want to
 
     @daily /usr/bin/ruby /path/to/script/random.rb
 
-After running that for a few days to make sure it works, disable the output.
+Run that for a few days to make sure it works, and then disable the output.
 
     @daily /usr/bin/ruby /path/to/script/random.rb > /dev/null
 
@@ -55,11 +57,13 @@ After running that for a few days to make sure it works, disable the output.
 Mastodon
 ========
 
-First, get [toot]<https://github.com/ihabunek/toot> working with your target account.
-
-Run `web/mastodon.rb`. This posts to the Mastodon account you've configured. To do this daily, make a cronjob.
+Run `web/mastodon.rb`. This posts to the Mastodon account you've already configured in `toot`. To do this daily, make a cronjob.
 
     @daily /usr/bin/ruby /path/to/script/mastodon.sh
+
+Run that for a few days to make sure it works, and then disable the output.
+
+    @daily /usr/bin/ruby /path/to/script/random.rb > /dev/null
 
 
 Details
