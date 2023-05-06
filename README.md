@@ -89,7 +89,7 @@ This project comes with some lists of kanji in the `lists` directory.  You can c
 Source
 ======
 
-* GitHub: <https://github.com/dper/kanjioftheday/>.
+* <https://github.com/dper/kanjioftheday/>
 
 
 Contact
