@@ -64,13 +64,10 @@ Run `web/mastodon.rb`. This posts to the Mastodon account you've configured. To 
 
     @daily /usr/bin/ruby /path/to/script/mastodon.rb
 
-The first time you run Mastodon, you'll need to configure everything. In `irb`, do something like the following.
+The first time you run Mastodon, you'll need to configure everything. On your Mastodon instance's web interface, go to the Developer page and create a new app that can write to your status. Then copy/paste the access token into `web/mastodon.txt`.
 
-```
-require 'mastodon'
-client = Mastodon::REST::Client.new(base_url: 'https://your-mastodon-instance-here')
-app = client.create('KanjiOfTheDay', 'https://your-website-here', 'write')
-```
+    token=YOUR-SECRET-ACCESS-TOKEN-GOES-HERE
+
 
 
 Details
