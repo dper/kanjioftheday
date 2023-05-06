@@ -94,21 +94,8 @@ class Styler
 
 	# Returns an attribution string.
 	def get_attribution
-		attribution = "This page was generated using <a href=\"https://github.com/dper/kanjioftheday/\">kanjioftheday</a>, written by Douglas Perkins.  Kanji lists came from the Ministry of Education.  Example words are derived from a <a href=\"http://www.bcit-broadcast.com/monash/wordfreq.README\">word frequency list</a> by Alexandre Girardi.  Dictionary information is taken from <a href=\"http://www.csse.monash.edu.au/~jwb/kanjidic2/\">KANJIDIC2</a> and <a href=\"http://www.edrdg.org/jmdict/edict.html\">EDICT</a>."
+		attribution = "Generated with <a href=\"https://github.com/dper/kanjioftheday/\">kanjioftheday</a> by Douglas Perkins."
 		return attribution
-	end
-
-	# Returns the current date and time as a string in RFC3339 format.
-	def get_date
-		if RUBY_VERSION == '1.8.7'
-			# For compatibility with Ruby 1.8.7.
-			datetime = Time.now.strftime("%Y-%m-%dT%H:%M:%S")
-			timezone = Time.now.strftime("%z")[0,3] + ':00'
-			return datetime + timezone
-		else
-			# Ruby 1.9.3 and newer can use this.
-			return DateTime.now.rfc3339
-		end
 	end
 
 	# Makes a styled HTML block for embedding.
@@ -141,7 +128,8 @@ class Styler
 				item.title = "Kanji of the Day: " + get_literal
 				item.updated = Time.now.to_s
 				item.description = @core
-				item.guid.content = URL + @output + '#' + get_date
+				date = DateTime.now.rfc3339
+				item.guid.content = URL + @output + '#' + date 
 				item.guid.isPermaLink = false
 			end
 		end
