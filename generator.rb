@@ -270,7 +270,7 @@ class Targetkanji
 end
 
 # Makes the details file for a given list of Kanji.
-class Detailsmaker
+class Rssmaker
 	# Makes the literal string.
 	def make_literal literal
 		s = literal
@@ -426,9 +426,9 @@ def make_details
 	$kanjidic = Kanjidic.new
 	$targetkanji = Targetkanji.new
 
-	# Make the details.
-	$detailsmaker = Detailsmaker.new($targetkanji.kanjilist)
-	$detailsmaker.write_details
+	# Make the RSS details.
+	$rssmaker = Rssmaker.new($targetkanji.kanjilist)
+	$rssmaker.write_details
 end
 
 make_details
