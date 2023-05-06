@@ -25,9 +25,14 @@ See `screenshots/` if you are interested in them.
 Installation
 ============
 
+Download the source code into a directory of your choosing.
+
 Ruby is required. Version 3.1.2 or newer should work.
 
-Download the source code into a directory of your choosing.
+If you want to post to Mastodon, install `mastodon-api` and configure as described below.
+
+    # gem install mastodon-api
+
 
 
 Getting Going
@@ -40,21 +45,31 @@ Next, run `generator.sh`. This could take a minute or two. It compiles all of th
 The above two scripts only need to be run on first installation or when you want to update the backend data.
 
 
-Regular Use
-===========
+RSS
+===
 
-Daily action occurs in `web`.
+Run `web/random.rb`. This creates or updates each RSS feed. If you don't want to generate all of the available feeds, edit the file accordingly. To make a kanji of the day, make a cronjob.
 
-Run `random.rb`. This creates or updates each RSS feed. If you don't want to generate all of the available feeds, edit the file accordingly. To make a kanji of the day, make a cronjob.
-
-```
-@daily /usr/bin/ruby /path/to/script/random.rb
-```
+    @daily /usr/bin/ruby /path/to/script/random.rb
 
 After running that for a few days to make sure it works, disable the output.
 
+    @daily /usr/bin/ruby /path/to/script/random.rb > /dev/null
+
+
+Mastodon
+========
+
+Run `web/mastodon.rb`. This posts to the Mastodon account you've configured. To do this daily, make a cronjob.
+
+    @daily /usr/bin/ruby /path/to/script/mastodon.rb
+
+The first time you run Mastodon, you'll need to configure everything. In `irb`, do something like the following.
+
 ```
-@daily /usr/bin/ruby /path/to/script/random.rb > /dev/null
+require 'mastodon'
+client = Mastodon::REST::Client.new(base_url: 'https://your-mastodon-instance-here')
+app = client.create('KanjiOfTheDay', 'https://your-website-here', 'write')
 ```
 
 
@@ -87,7 +102,7 @@ Source
 Contact
 =======
 
-If you want to contact the author, here are some ways.  Bug reports and improvements are always welcome.
+Suggestions and comments are always welcome.
 
 * <https://dperkins.org/>
 
