@@ -2,7 +2,7 @@
 # coding: utf-8
 #
 # == NAME
-# rssmaker.rb
+# textmaker.rb
 #
 # == USAGE
 # Call this from generator.rb.
@@ -14,7 +14,7 @@
 # Douglas Perkins - https://dperkins.org
 
 # Makes the details file for a given list of Kanji.
-class Rssmaker
+class Textmaker
 	# Makes the literal string.
 	def make_literal literal
 		s = literal
@@ -97,7 +97,7 @@ class Rssmaker
 			kana = example.kana
 			meaning = example.meaning
 
-			s += word + ' &nbsp; (' + kana + ') &nbsp; &mdash; &nbsp; ' + meaning
+			s += word + '   (' + kana + ')   ' + meaning
 			s += '<br />'
 		end
 
@@ -150,7 +150,7 @@ class Rssmaker
 
 	# Writes the contents of @details to a text file.
 	def write_details
-		file = 'rss.txt'
+		file = 'text.txt'
 		path = Script_dir + '/' + file
 		puts 'Writing the details to ' + file + '...'
 
