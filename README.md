@@ -29,7 +29,7 @@ Download the source code into a directory of your choosing.
 
 Ruby is required. Version 3.1.2 or newer should work.
 
-If you want to post to Mastodon, get [toot]<https://github.com/ihabunek/toot> working with your target account.
+If you want to post to Mastodon, get [toot](https://github.com/ihabunek/toot) working with your target account.
 
 
 Getting Going
@@ -105,16 +105,11 @@ Sources
 
 This code was based on [kanjiforanki](https://github.com/dper/kanjiforanki), a 2011 project to create paper flashcards. These days, I would generally recommend using Anki or some other kind of spaced repetition system instead of physical flashcards.
 
-The school-based kanji lists themselves are published by the Ministry of Education (MEXT) in Japan.  Other websites copy and paste the data from official MEXT documents.
+The JLPT kanji lists are based on those from the old official JLPT documentation.
 
 * <http://www.mext.go.jp/a_menu/shotou/new-cs/youryou/syo/koku/001.htm>.  Elementary school kanji.
 * <http://www.imabi.net/joyokanjilist.htm>.  Elementary and junior high school kanji.
-
-The JLPT kanji lists are based on those from the old official JLPT documentation.
-
-The dictionaries are available from their original sources.
-
-* <http://nihongo.monash.edu/japanese.html>
+* <http://nihongo.monash.edu/japanese.html>. The dictionaries are available from their original sources.
 
 
 Contributions
