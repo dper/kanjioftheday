@@ -53,7 +53,7 @@ Mastodon
 
 Run `web/mastodon.rb`. This posts to the Mastodon account you've already configured in `toot`. To do this daily, make a cronjob.
 
-    @daily /usr/bin/ruby /path/to/script/mastodon.sh
+    @daily /usr/bin/ruby /path/to/script/mastodon.rb
 
 Run that for a few days to make sure it works, and then disable the output.
 
