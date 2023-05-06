@@ -18,7 +18,7 @@
 #   Douglas Perkins - https://dperkins.org
 
 require 'nokogiri'
-require File.dirname(__FILE__) + '/' + 'wordfreq'
+require Script_dir + '/' + 'wordfreq'
 
 # Fixes style quirks in Edict.
 class Styler

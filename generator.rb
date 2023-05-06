@@ -17,10 +17,12 @@
 # == AUTHOR
 #   Douglas Perkins - https://dperkins.org
 
+Script_dir = File.dirname(__FILE__)
+
 require 'nokogiri'
-require File.dirname(__FILE__) + '/' + 'wordfreq'
-require File.dirname(__FILE__) + '/' + 'loader'
-require File.dirname(__FILE__) + '/' + 'rssmaker'
+require Script_dir + '/' + 'wordfreq'
+require Script_dir + '/' + 'loader'
+require Script_dir + '/' + 'rssmaker'
 
 def make_details
 	# Read all of the files and data.
