@@ -78,7 +78,7 @@ Links
 
 * <https://github.com/dper/kanjioftheday/>. The source code.
 * <https://dperkins.org/>. The author's website.
-* <https://c.im/@dperkins/>. The author's Mastodon account.
+* <https://c.im/@dperkins>. The author's Mastodon account.
 
 
 Sources
