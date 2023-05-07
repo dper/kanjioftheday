@@ -118,7 +118,7 @@ class Poster
 	def mastodon(text)
 		path = Script_dir + '/mastodon.txt'
 		File.open(path, 'w') { |file| file.puts text }
-		command = "toot post < mastodon.txt"
+		command = "toot post < " + path
 		results = system(command)
 		puts results 
 		if File.exist?(path) then File.delete(path) end
