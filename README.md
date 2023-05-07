@@ -13,13 +13,7 @@ Kanji are Japanese characters.  There are several thousand in existence.  If you
 
 Some other websites already offer kanji of the day.  I've used [Yookoso](http://www.yookoso.com/study/) happily in the past.  It offers much the same kind of thing as can be found here, along with many other useful study tools.  On the other hand, you can't play around with third party websites.  You don't get to decide what the information looks like, and if you dislike the formatting, tough luck.  And if someone else's site goes down, you can't fix it.  This project is designed to give you an extra level of control.
 
-To see this code in action, visit <https://kotd.dperkins.org/>.  You can use those feeds for your own purposes, if you like.  Or, as mentioned above, you can deploy your own instance and customize it as you like.
-
-
-Screenshots
-===========
-
-See `screenshots/` if you are interested in them.
+To see this code in action, visit <https://kotd.dperkins.org/> or <https://c.im/@kanjioftheday>.  Use those feeds or deploy and customize your own instance.
 
 
 Installation
@@ -59,7 +53,7 @@ Mastodon
 
 Run `web/mastodon.rb`. This posts to the Mastodon account you've already configured in `toot`. To do this daily, make a cronjob.
 
-    @daily /usr/bin/ruby /path/to/script/mastodon.sh
+    @daily /usr/bin/ruby /path/to/script/mastodon.rb
 
 Run that for a few days to make sure it works, and then disable the output.
 
@@ -89,7 +83,7 @@ This project comes with some lists of kanji in the `lists` directory.  You can c
 Source
 ======
 
-* GitHub: <https://github.com/dper/kanjioftheday/>.
+* <https://github.com/dper/kanjioftheday/>
 
 
 Contact
@@ -103,7 +97,7 @@ Suggestions and comments are always welcome.
 Sources
 =======
 
-This code was based on [kanjiforanki](https://github.com/dper/kanjiforanki), a 2011 project to create paper flashcards. These days, I would generally recommend using Anki or some other kind of spaced repetition system instead of physical flashcards.
+This code was originally forked from [kanjiforanki](https://github.com/dper/kanjiforanki), a 2011 project to create paper flashcards.
 
 The JLPT kanji lists are based on those from the old official JLPT documentation.
 
